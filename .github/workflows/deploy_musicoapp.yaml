@@ -1,0 +1,11 @@
+name: deploy_musicoapp
+on:
+  push:
+    branches:
+      - "main"
+jobs:
+  build-and-deploy:
+    runs-on: self-hoasted
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
