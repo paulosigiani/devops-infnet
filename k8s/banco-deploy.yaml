@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: musicoapp
+  name: banco-musico-deploy
+  labels:
+    app: database
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: database
+  template:
+    metadata:
+      name: banco-pod
+      labels:
+        app: database
+    spec:
+      volumes:
+        - name: banco-musico-volume
+          persistentVolumeClaim:
+            claimName: banco-pvc
+      containers:
+        - name: banco-musico-container
+          image: paulopalmuti/musico-database:latest
+          imagePullPolicy: IfNotPresent
+          volumeMounts:
+            - mountPath: /var/lib/postgresql/data
+              name: banco-musico-volume
+        - name: postgres-exporter
+          image: quay.io/prometheuscommunity/postgres-exporter
+          env:
+            - name: DATA_SOURCE_URI
+              value: "localhost:5432/musico?sslmode=disable"
+            - name: DATA_SOURCE_USER
+              value: "postgres"
+            - name: DATA_SOURCE_PASS
+              value: "123456"

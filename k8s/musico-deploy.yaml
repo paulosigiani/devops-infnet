@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: musicoapp
+  name: musico-deploy
+  labels:
+    app: musico
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: musico
+  template:
+    metadata:
+      name: musico
+      labels:
+        app: musico
+    spec:
+      containers:
+        - image: paulopalmuti/musico:latest
+          name: musico
+          imagePullPolicy: Always
+          readinessProbe:
+            initialDelaySeconds: 150
+            successThreshold: 1
+            failureThreshold: 5
+            periodSeconds: 30
+            httpGet:
+              port: 8080
+              path: /actuator/health/readiness
+          livenessProbe:
+            initialDelaySeconds: 150
+            failureThreshold: 5
+            periodSeconds: 30
+            successThreshold: 1
+            httpGet:
+              port: 8080
+              path: /actuator/health/liveness
