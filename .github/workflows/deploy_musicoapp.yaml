@@ -26,3 +26,5 @@ jobs:
         run: mvn clean
       - name: Run tests
         run: mvn tests
+      - name: Build project
+        run: mvn package -skipTests
