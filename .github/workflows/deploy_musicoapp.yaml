@@ -33,3 +33,14 @@ jobs:
           cp target/*.jar Docker/app.jar
       - name: Build Docker image
         run: docker build . -f Docker/Dockerfile -t musico:3.0
+      - name: Create tag 3.0
+        run: docker tag musico:3.0 paulopalmuti/musico-database:3.0
+      - name: Create tag latest
+        run: docker tag musico:3.0 paulopalmuti/musico-database:latest
+      - name: Docker login
+        run: |
+          echo ${{ secrets.DOCKER_TOKEN }} | docker login --username ${{ secrets.DOCKERHUB_USER }} --password-stdin
+      - name: Docker push 3.0
+        run: docker push paulopalmuti/musico:3.0
+      - name: Docker push latest
+        run: docker push paulopalmuti/musico:latest
