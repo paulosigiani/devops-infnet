@@ -25,6 +25,11 @@ jobs:
       - name: Clean directory
         run: mvn clean
       - name: Run tests
-        run: mvn tests
+        run: mvn test
       - name: Build project
-        run: mvn package -skipTests
+        run: mvn package -DskipTests
+      - name: Copy artefact
+        run: |
+          cp target/*.jar Docker/app.jar
+      - name: Build Docker image
+        run: docker build . -f Docker/Dockerfile -t musico:3.0
