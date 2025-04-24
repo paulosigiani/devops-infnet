@@ -44,3 +44,7 @@ jobs:
         run: docker push paulopalmuti/musico:3.0
       - name: Docker push latest
         run: docker push paulopalmuti/musico:latest
+      - name: Update k8s
+        run: kubectl rollout restart deploy musico-deploy -n musicoapp
+      - name: Deploy status
+        run: kubectl rollout status deploy musico-deploy -n musicoapp
