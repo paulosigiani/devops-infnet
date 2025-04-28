@@ -1,0 +1,2445 @@
+    1          "codigo": 170,
+    2          "tipoInstrumento": "Percussao"
+    3      }
+    4  }'fds
+    5  curl -X POST http://localhost:9999/contratacao/ -H "Content-Type: application/json" -d '{
+    6      "musico": {
+    7          "nome": "Paulo",
+    8          "idade": 27,
+    9          "cpf": "999.999.999.00",
+   10          "sexo": "M",
+   11          "cep": "37070140"
+   12      },
+   13      "salario": 777.77,
+   14      "tipoContrato": "CLT",
+   15      "instrumento": {
+   16          "nome": "Regua",
+   17          "codigo": 170,
+   18          "tipoInstrumento": "Percussao"
+   19      }
+   20  }'
+   21  npx vite --port=4000
+   22  nvm install --lts
+   23  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+   24  source ~/.nvm/nvm.sh
+   25  nvm --version
+   26  nvm install
+   27  nvm install --lts
+   28  cd home
+   29  ls
+   30  cd .
+   31  ls
+   32  cd 
+   33  cd ~
+   34  ls
+   35  cd Trabalhos
+   36  ls
+   37  cd mkdir
+   38  mkdir PosReact
+   39  cd PosReact
+   40  npm create vite@latest
+   41  cd infnet
+   42  npm install
+   43  nvm install 20.18.0
+   44  nvm use 20.18.0
+   45  node -v
+   46  npm create vite@latest
+   47  cd infnet
+   48  npm install
+   49  npm run dev
+   50  npm install -g nodemon
+   51  npm run dev
+   52  npm install
+   53  npm run dev
+   54  nodemon src/teste.js
+   55  nodemon
+   56  npm run dev
+   57  npm install -g json-server
+   58  npm install axios
+   59  chmod +x diretorio.sh
+   60  ./diretorio.sh
+   61  chmod +x diretorio.sh
+   62  ./diretorio.sh
+   63  npm run dev
+   64  npm install -g vite
+   65  npm run dev
+   66  npm install
+   67  npm run dev
+   68  json-server --watch modelo.json
+   69  json-server modelo.json -port=3333
+   70  json-server modelo.json --port=3333
+   71  npm run dev
+   72  json-server modelo.json --port=3333
+   73  npm run dev
+   74  json-server modelo.json --port=3333
+   75  npm run dev
+   76  json-server --version
+   77  git stash
+   78  git stash pop
+   79  git stash
+   80  npm run dev
+   81  git init
+   82  git remote add origin https://github.com/PauloSigiani/GestaoMusicosFront.git
+   83  git add .
+   84  git commit -m "Módulo 2"
+   85  git push -u origin master
+   86  git remote set-url origin https://github.com/PauloSigiani/GestaoMusicosFront.git/
+   87  git push -u origin master
+   88  gh auth login
+   89  git push -u origin master
+   90  npm install
+   91  npm run dev
+   92  google-chrome &
+   93  sudo apt update
+   94  sudo apt install chromium-browser
+   95  chromium &
+   96  chromium-browser &
+   97  chromium-browser https://www.google.com &
+   98  chromium
+   99  sudo apt remove chromium-browser
+  100  sudo apt purge chromium-browser
+  101  sudo apt autoremove
+  102  sudo snap install chromium
+  103  sudo apt update
+  104  sudo apt install snapd
+  105  sudo systemctl enable --now snapd
+  106  sudo snap install chromium
+  107  sudo apt install firefox
+  108  firefox
+  109  firefox &
+  110  sudo apt remove firefox
+  111  sudo apt purge firefox
+  112  sudo apt autoremove
+  113  # Add Docker's official GPG key:
+  114  sudo apt-get update
+  115  sudo apt-get install ca-certificates curl
+  116  sudo install -m 0755 -d /etc/apt/keyrings
+  117  sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+  118  sudo chmod a+r /etc/apt/keyrings/docker.asc
+  119  # Add the repository to Apt sources:
+  120  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  121    $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  122  sudo apt-get update
+  123  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  124  sudo apt-get update
+  125  sudo apt-get install ./docker-desktop-amd64.deb
+  126  wget https://desktop.docker.com/linux/main/amd64/docker-desktop-amd64.deb?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-linux-amd64&_gl=1*c2ov8l*_gcl_au*NDg0MDE4OTc2LjE3NDQxNDcyMTU.*_ga*MTg1Mzc2MTAwMi4xNzQ0MTQ3MjE2*_ga_XJWPQMJYHQ*MTc0NDE0NzIxNi4xLjEuMTc0NDE0Nzg2MS42MC4wLjA.
+  127  wget https://desktop.docker.com/linux/main/amd64/docker-desktop-amd64.deb
+  128  ps aux | grep dockerd
+  129  dpkg -l | grep docker
+  130  which docker
+  131  command -v docker
+  132  type docker
+  133  wget https://desktop.docker.com/linux/main/amd64/docker-desktop-amd64.deb?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-linux-amd64&_gl=1*c2ov8l*_gcl_au*NDg0MDE4OTc2LjE3NDQxNDcyMTU.*_ga*MTg1Mzc2MTAwMi4xNzQ0MTQ3MjE2*_ga_XJWPQMJYHQ*MTc0NDE0NzIxNi4xLjEuMTc0NDE0Nzg2MS42MC4wLjA.
+  134  bundled
+  135  gnome
+  136  kde desktop
+  137  systemctl --user start docker-desktop
+  138  docker
+  139  systemctl --user start docker-desktop
+  140  docker run hello-world
+  141  ps aux | grep dockerd
+  142  sudo dockerd &
+  143  docker run hello-world
+  144  sudo dockerd &
+  145  docker run hello-world
+  146  wget https://desktop.docker.com/linux/main/amd64/docker-desktop-amd64.deb
+  147  sudo apt update
+  148  sudo apt upgrade -y
+  149  docker ps
+  150  docker stop -t 30
+  151  docker rm
+  152  sudo systemctl stop docker
+  153  sudo apt-get purge docker-ce -y
+  154  rm -rf /etc/docker
+  155  sudo systemctl status docker
+  156  sudo apt-get purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
+  157  sudo rm -rf /var/lib/docker
+  158  sudo rm -rf /var/lib/containerd
+  159  sudo stop docker
+  160  sudo systemctl stop docker
+  161  ps aux | grep dockerd
+  162  sudo kill -9 13113
+  163  sudo kill -9 paulo
+  164  sudo pkill -f docker
+  165  ps aux | grep dockerd
+  166  sudo pkill -f dockerd
+  167  ps aux | grep dockerd
+  168  sudo pkill -f docker
+  169  ps aux | grep dockerd
+  170  sudo rm -rf /var/lib/containerd
+  171  sudo rm -rf /var/lib/docker
+  172  ps aux | grep dockerd
+  173  sudo kill -9 7008
+  174  sudo lsof +D /var/lib/docke
+  175  sudo lsof +D /var/lib/docker
+  176  mount | grep /var/lib/docker
+  177  sudo umount -f /var/lib/docker
+  178  sudo rm -rf /var/lib/docker
+  179  ps aux | grep dockerd
+  180  sudo rm -rf /var/lib/docker
+  181  sudo rm -rf /var/lib/containerd
+  182  sudo rm /etc/apt/sources.list.d/docker.list
+  183  sudo rm /etc/apt/keyrings/docker.asc
+  184  ps aux | grep dockerd
+  185  dpkg -l | grep -i docker
+  186  sudo apt-get purge -y docker-engine docker docker.io docker-ce docker-ce-cli docker-compose-plugin
+  187  sudo apt-get autoremove -y --purge docker-engine docker docker.io docker-ce docker-compose-plugin
+  188  sudo rm -rf /var/lib/docker /etc/docker
+  189  sudo rm /etc/apparmor.d/docker
+  190  sudo groupdel docker
+  191  sudo rm -rf /var/run/docker.sock
+  192  sudo rm -rf /var/lib/containerd
+  193  sudo rm -r ~/.docker
+  194  sudo apt-get purge -y docker-engine docker docker.io docker-ce  
+  195  sudo apt-get autoremove -y --purge docker-engine docker docker.io docker-ce  
+  196  sudo umount /var/lib/docker/
+  197  sudo rm -rf /var/lib/docker /etc/docker
+  198  sudo rm /etc/apparmor.d/docker
+  199  sudo groupdel docker
+  200  sudo rm -rf /var/run/docker.sock
+  201  sudo rm -rf /usr/bin/docker-compose
+  202  sudo apt-get purge -y docker-engine docker docker.io docker-ce docker-ce-cli
+  203  sudo apt-get purge docker-ce docker-ce-cli containerd.io
+  204  sudo rm -rf /var/lib/docker
+  205  sudo rm -rf /var/lib/containerd
+  206  sudo apt-get remove docker docker-engine docker.io containerd runc
+  207  dpkg -l | grep -i docker
+  208  sudo apt remove --purge docker-ce docker-ce-cli containerd.io
+  209  sudo rm -rf /var/lib/docker
+  210  sudo rm -rf /var/lib/containerd
+  211  sudo apt autoremove -y
+  212  sudo apt autoclean
+  213  // check docker is installed or not
+  214  dpkg -l | grep -i docker
+  215  // remove volume , network , container and image files
+  216  sudo docker volume prune -f
+  217  sudo docker network prune -f
+  218  sudo docker container prune -f
+  219  sudo docker image prune -a
+  220  // remove docker
+  221  sudo apt purge docker
+  222  or
+  223  sudo apt remove docker
+  224  // remove dependency packages related to docker
+  225  sudo apt autoremove
+  226  sudo apt autoclean
+  227  dpkg-query -S $(sudo find / -name '*docker*' -print 2>/dev/null)
+  228  sudo dockerd &
+  229  ps aux | grep dockerd
+  230  status docker
+  231  which docker
+  232  systemctl list-units --type=service | grep docker
+  233  sudo ps aux | grep dockerd
+  234  sudo kill -9 16602
+  235  sudo kill -9 16621
+  236  sudo kill -9 16650
+  237  sudo kill -9 16680
+  238  sudo kill -9 17171
+  239  sudo ps aux | grep dockerd
+  240  which docker
+  241  sudo apt purge docker-ce docker-ce-cli containerd.io
+  242  sudo rm -rf /var/lib/docker /etc/docker
+  243  sudo groupdel docker
+  244  dockerd &
+  245  sudo ps aux | grep dockerd
+  246  dockerd &
+  247  docker
+  248  dockerrd
+  249  dockerd
+  250  sudo dockerd &
+  251  sudo ps aux | grep dockerd
+  252  sudo service docker start
+  253  sudo /etc/init.d/docker start
+  254  sudo apt-get purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
+  255  sudo rm -rf /var/lib/docker
+  256  sudo rm -rf /var/lib/containerd
+  257  sudo rm /etc/apt/sources.list.d/docker.list
+  258  sudo rm /etc/apt/keyrings/docker.asc
+  259  cd $HOME/.docker/desktop
+  260  cd /usr/local/bin/com.docker.cli
+  261  cd $HOME/.docker/config.json
+  262  $HOME/.docker/
+  263  $HOME/.docker
+  264  sudo find / -name '*docker*' -print 2>/dev/null
+  265  dpkg-query -S $(sudo find / -name '*docker*' -print 2>/dev/null)
+  266  mkdir docker-atividade
+  267  clear
+  268  mkdir postgres_export
+  269  cd postgres_export
+  270  ls
+  271  docker run -it --rm -p 5432:5432 -e POSTGRES_PASSWORD=123456 -v $(pwd):/backup postgress
+  272  DOCKER LOGIN
+  273  docker
+  274  dockerlogin
+  275  docker login
+  276  docker run -it --rm -p 5432:5432 -e POSTGRES_PASSWORD=123456 -v $(pwd):/backup postgress
+  277  docker run -it --rm -p 5432:5432 -e POSTGRES_PASSWORD=123456 -v $(pwd):/backup postgres
+  278  cd
+  279  docker-aula
+  280  cd docker-aula
+  281  cd arquivos
+  282  pwd
+  283  docker volume -ls
+  284  docker volume ls
+  285  docker run -it --rm --network devops nginx
+  286  clear
+  287  CD
+  288  cd.
+  289  cd .
+  290  cd ..
+  291  cd..
+  292  cd /
+  293  ls
+  294  cd .
+  295  ls
+  296  cd .
+  297  exit
+  298  k get ns
+  299  alias k=kubectl
+  300  k get ns
+  301  cd prometheus
+  302  docker run -it -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml --rm prom/prometheus
+  303  cd prometheus
+  304  docker run -it -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml --rm prom/prometheus
+  305  docker stop prom/prometheus
+  306  docker ps
+  307  docker stops 033cd9c041f9
+  308  docker stop 033cd9c041f9
+  309  docker run -it -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml --rm prom/prometheus
+  310  curl http://localhost:30010/actuator/prometheus
+  311  kubectl delete pods --all -n musicoapp
+  312  kubectl delete svc --all -n musicoapp
+  313  docker ps
+  314  docker ps -a
+  315  docker prune
+  316  docker rm -f $(docker ps -a)
+  317  docker ps -a
+  318  docker rm -f $(docker ps -aq)
+  319  docker ps 
+  320  kubectl delete pods --all -n musicoapp
+  321  NAMESPACE=musicoapp
+  322  kubectl delete all --all -n $NAMESPACE
+  323  kubectl delete configmap --all -n $NAMESPACE
+  324  kubectl delete secret --all -n $NAMESPACE
+  325  kubectl delete ingress --all -n $NAMESPACE
+  326  kubectl delete pvc --all -n $NAMESPACE
+  327  kubectl delete cronjob --all -n $NAMESPACE
+  328  kubectl delete job --all -n $NAMESPACE
+  329  kubectl delete serviceaccount --all -n $NAMESPACE
+  330  kubectl delete role --all -n $NAMESPACE
+  331  kubectl delete rolebinding --all -n $NAMESPACE
+  332  kubectl delete networkpolicy --all -n $NAMESPACE
+  333  docker ps
+  334  docker ps -a
+  335  k apply banco-deploy.yaml
+  336  cd ..
+  337  cd k8s
+  338  k apply -f  banco-deploy.yaml
+  339  alias kubectl=k
+  340  k apply -f  banco-deploy.yaml
+  341  alias k=kubectl
+  342  k apply -f  banco-deploy.yaml
+  343  alias k=kubectl
+  344  k apply -f  banco-deploy.yaml
+  345  docker ps
+  346  docker stops bfaf28d83778
+  347  docker stop bfaf28d83778
+  348  docker run -it -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml --rm prom/prometheus
+  349  cd prometheus
+  350  docker run -it -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml --rm prom/prometheus
+  351  kubectl delete deployment --all -n musicoapp
+  352  kubectl delete replicaset --all -n musicoapp
+  353  kubectl delete statefulset --all -n musicoapp
+  354  cd k8s
+  355  k apply -f banco-deploy.yaml
+  356  alias k-kubectl
+  357  alias k=kubectl
+  358  k apply -f banco-deploy.yaml
+  359  k apply -f banco-svc.yaml
+  360  k get ns musicoapp
+  361  k get po  musicoapp
+  362  k get po -ns  musicoapp
+  363  k get po -n  musicoapp
+  364  k get svc -n musicoapp
+  365  docker ps
+  366  docker exec -it 6e4e37d5fc40 redis-cli
+  367  mvn clean
+  368  cd ..
+  369  mvn clean
+  370  mvn package
+  371  cd docker
+  372  cd Docker
+  373  docker build . -t paulopalmuti/musico:1.0
+  374  docker push paulopalmuti/musico
+  375  docker push paulopalmuti/musico:1.0
+  376  docker tag paulopalmuti/musico:1.0 paulopalmuti/musico:latest
+  377  docker push paulopalmuti/musico:latest[
+  378  docker push paulopalmuti/musico:latest
+  379  clear
+  380  cd ..
+  381  k apply -f musico-deploy.yaml
+  382  cd k8s
+  383  k apply -f musico-deploy.yaml
+  384  k get po -n musico
+  385  k get po -n musicoapp
+  386  k apply -f musico-deploy.yaml
+  387  k get po -n musicoapp
+  388  kubectl delete pods --all -n musicoapp
+  389  k get po -n musicoapp
+  390  kubectl scale deployment --all --replicas=0 -n musicoapp
+  391  k get po -n musicoapp
+  392  k apply -f musico-deploy.yaml
+  393  k get po -n musicoapp
+  394  kubectl describe pod musico-deploy
+  395  kubectl describe podmusico-deploy-588fc7c4bd-dtvhh
+  396  kubectl describe pod musico-deploy-588fc7c4bd-dtvhh
+  397  k get po -n musicoapp
+  398  k describe po musico-deploy-588fc7c4bd-dtvhh
+  399  kubectl describe pod musico-deploy-588fc7c4bd-dtvhh -n musicoapp
+  400  k get po -n musicoapp
+  401  k delete po musico-deploy.yaml
+  402  k delete -f musico-deploy.yaml
+  403  k get po -n musicoapp
+  404  k apply -f musico-deploy.yaml
+  405  k get po -n musicoapp
+  406  k apply -f musico-svc.yaml
+  407  k get po -n musicoapp
+  408  k apply -f musico-svc.yaml
+  409  k get po -n musicoapp
+  410  k delete -f musico-deploy.yaml
+  411  k get po -n musicoapp
+  412  k apply -f musico-deploy.yaml
+  413  k getsvco -n musicoapp
+  414  k get svc -n musicoapp
+  415  k apply -f banco-deploy.yaml
+  416  k delete -n musicoapp
+  417  kubectl delete pods --all -n musicoapp
+  418  kubectl delete svc --all -n musicoapp
+  419  k apply -f banco-deploy.yaml
+  420  k get po -n musicoapp
+  421  kubectl delete pods --all -n musicoapp
+  422  k get po -n musicoapp
+  423  k get svc -n musicoapp
+  424  k apply -f bancosvc.yaml
+  425  k apply -f banco-svc.yaml
+  426  k apply -f musico-svc.yaml
+  427  k get svc -n musicoapp
+  428  k get po -n musicoapp
+  429  k delete -f musico-deploy.yaml
+  430  k get po -n musicoapp
+  431  k apply -f musico-deploy.yaml
+  432  k get po -n musicoapp
+  433  kubectl logs musico-deploy-565ff9875-6tmcq -n musicoapp
+  434  cd ..
+  435  mvn clean
+  436  mvn package
+  437  cd Docker
+  438  docker build . -t paulopalmuti/musico:1.0
+  439  docker push paulopalmuti/musico:1.0
+  440  docker push paulopalmuti/musico:latest
+  441  docker tag paulopalmuti/musico:1.0 paulopalmuti/musico:latest
+  442  docker push paulopalmuti/musico:latest
+  443  k apply -f musico-deploy.yaml
+  444  cd k8s
+  445  k apply -f musico-deploy.yaml
+  446  cd ..
+  447  cd k8s
+  448  k apply -f musico-deploy.yaml
+  449  k delete po -f musico-deploy.yaml
+  450  k delete -f musico-deploy.yaml
+  451  k apply -f musico-deploy.yaml
+  452  k get po -n musicoapp
+  453  k delete -f musico-depsvc.yaml
+  454  k delete -f musico-svc.yaml
+  455  k apply -f musico-svc.yaml
+  456  kubectl logs musico-deploy-565ff9875-6tmcq -n musicoapp
+  457  k get po -n musicoapp
+  458  kubectl logs musico-deploy-565ff9875-pbwb8 -n musicoapp
+  459  k get po -n musicoapp
+  460  k delete -f banco-musico-deploy-7659cd68c4-rllqx
+  461  k delete po banco-musico-deploy-7659cd68c4-rllqx
+  462   
+  463  k apply -f banco-monitoramento-svc.yaml
+  464  k get svc -n musicoapp
+  465  alias k=kubectl
+  466  k create ns musicoApp
+  467  k get ns
+  468  docker login
+  469  k get ns
+  470  k create ns musicoApp
+  471  clear
+  472  k create ns musicoApp
+  473  k get ns
+  474  k create ns musicoapp
+  475  k get ns
+  476  k get -po musicoapp
+  477  k get po -n musicoapp
+  478  ls
+  479  pwd
+  480  ls
+  481  cd Docker
+  482  docker build . t PauloPalmuti/musico:database:latest
+  483  cd Banco
+  484  docker build . t PauloPalmuti/musico:database:latest
+  485  docker build . -t PauloPalmuti/musico:database:latest
+  486  docker build . -t paulopalmuti/musico:database:latest
+  487  docker build . -t paulopalmuti/musico-database:latest
+  488  docker push paulopalmuti/musico-database:latest
+  489  docker run -it --rm -p 5432:5432 paulopalmuti/musico-database
+  490  docker build . -t paulopalmuti/musico:database:latest
+  491  docker login
+  492  docker build . -t paulopalmuti/musico:database:latest
+  493  docker build . -t paulopalmuti/musico-database:latest
+  494  docker push paulopalmuti/musico-database:latest
+  495  docker build . -t paulopalmuti/musico-database:latest
+  496  docker push paulopalmuti/musico-database:latest
+  497  docker run -it --rm -p 5432:5432 paulopalmuti/musico-database
+  498  docker build . -t paulopalmuti/musico-database:latest
+  499  docker push paulopalmuti/musico-database:latest
+  500  docker run -it --rm -p 5432:5432 paulopalmuti/musico-database
+  501  docker build . -t paulopalmuti/musico-database:latest
+  502  docker push paulopalmuti/musico-database:latest
+  503  docker run -it --rm -p 5432:5432 paulopalmuti/musico-database
+  504  docker build . -t paulopalmuti/musico-database:latest
+  505  docker push paulopalmuti/musico-database:latest
+  506  docker run -it --rm -p 5432:5432 paulopalmuti/musico-database
+  507  docker build . -t paulopalmuti/musico-database:latest
+  508  docker push paulopalmuti/musico-database:latest
+  509  docker run -it --rm -p 5432:5432 paulopalmuti/musico-database
+  510  k apply -f banco-deploy.yaml
+  511  alias k=kubectl
+  512  k apply -f banco-deploy.yaml
+  513  cd k8s
+  514  k apply -f banco-deploy.yaml
+  515  k apply -f musico-deploy.yaml
+  516  k apply -f banco-svc.yaml
+  517  k apply -f musico-svc.yaml
+  518  k apply -f banco-monitoramento-svc.yaml
+  519  k get po -n musicoapp
+  520  k get svc -n musicoapp
+  521  do0cker ps
+  522  docker ps
+  523  k get svc -n musicoapp
+  524  docker ps
+  525  k get po -n musicoapp
+  526  cd ..
+  527  history
+  528  docker run -it -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml --rm prom/prometheus
+  529  cd prometheus
+  530  docker run -it -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml --rm prom/prometheus
+  531  k apply -f musico-svc.yaml
+  532  alias kubectl=k
+  533  k apply -f musico-svc.yaml
+  534  alias k=kubectl
+  535  k apply -f musico-svc.yaml
+  536  alias k=kubectl
+  537  k apply -f musico-svc.yaml
+  538  cd k8s
+  539  k apply -f musico-svc.yaml
+  540  kubetl apply -f musico-svc.yaml
+  541  kubectl apply -f musico-svc.yaml
+  542  curl http://localhost:30010/actuator/prometheus
+  543  kubectl apply -f musico-svc.yaml
+  544  curl http://localhost:30010/actuator/prometheus
+  545  kubectl apply -f musico-svc.yaml
+  546  curl http://localhost:30010/actuator/prometheus
+  547  cd ..
+  548  mvn clean[
+  549  mvn clean
+  550  mvn package
+  551  cd docker
+  552  docker build
+  553  docker build . -t paulopalmuti/musico-database:latest
+  554  cd docker
+  555  docker build . -t paulopalmuti/musico-database:latest
+  556  cd Docker
+  557  docker build . -t paulopalmuti/musico-database:latest
+  558  docker build . -t paulopalmuti/musico-database:1.0
+  559  docker push . -t paulopalmuti/musico-database:1.0
+  560  docker push paulopalmuti/musico-database:latest
+  561  docker push paulopalmuti/musico-database:1.0
+  562  k apply -f musico-svc.yaml
+  563  cd ..
+  564  cd k8s
+  565  k apply -f musico-deploy.yaml
+  566  alias k=kubectl
+  567  k apply -f musico-deploy.yaml
+  568  cd ..
+  569  cd k8s
+  570  k apply -f musico-deploy.yaml
+  571  kubectl apply pf musico-deploy.yaml
+  572  kubectl apply-pf musico-deploy.yaml
+  573  k
+  574  alias k=kubectl
+  575  k
+  576  alias kubectl=k
+  577  k
+  578  alias k=kubectl
+  579  k
+  580  kubectl
+  581  source ~/.bashrc
+  582  k
+  583  kubectl delete po -all  -n musicoapp
+  584  kubectl delete deployment --all -n musicoapp
+  585  kubectl delete pod --all -n musicoapp
+  586  kubectl delete svc --all -n musicoapp
+  587  docker ps
+  588  kubectl apply -f musico-deploy.yaml
+  589  kubectl apply -f banco-deploy.yaml
+  590  kubectl apply -f banco-svc.yaml
+  591  kubectl apply -f musico-svc.yaml
+  592  kubectl apply -f banco-monitoramento-svc.yaml
+  593  clear
+  594  k get po -n musicoapp
+  595  kubectl get po -n musicoapp
+  596  kubectl logs musico-deploy-565ff9875-q44pr -n musicoapp
+  597  kubectl get po -n musicoapp
+  598  kubectl logs musico-deploy-565ff9875-q44pr -n musicoapp
+  599  kubectl get po -n musicoapp
+  600  kubectl port-forward svc/musico-svc 8080:8080 -n musicoapp
+  601  docker ps
+  602  docker stop 13728f516431 
+  603  cd prometheus
+  604  docker run -it -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml --rm prom/prometheus
+  605  docker ps
+  606  docker run -p 8080:8080 paulopalmuti/musico:latest
+  607  cd k8s
+  608  alias k=kubectl
+  609  k
+  610  k apply -f banco-deploy.yaml
+  611  k apply -f banco-monitoramento-svc.yaml
+  612  k apply -f banco-svc.yaml
+  613  k get po -n musicoap
+  614  k get po -n musicoapp
+  615  docker ps
+  616  docker rm 3b0251258fd9
+  617  docker stop 3b0251258fd9
+  618  docker rm 3b0251258fd9
+  619  docker run -it -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml --rm prom/prometheus
+  620  cd ..
+  621  cd prometheus
+  622  docker run -it -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml --rm prom/prometheus
+  623  mvn clean
+  624  mvn package
+  625  cd Docker
+  626  docker build -t paulopalmuti/musico:1.0 -t paulopalmuti/musico:latest .
+  627  docker push paulopalmuti/musico:1.0
+  628  docker push paulopalmuti/musico:latest
+  629  k
+  630  cd ..
+  631  cd k8s
+  632  kubectl apply -f musico-deploy.yaml
+  633  kubectl delete kubectl delete deployment --all -n musicoapp
+  634  ubectl delete deployment --all -n musicoapp
+  635  ubecktl delete deployment --all -n musicoapp
+  636  kubecktl delete deployment --all -n musicoapp
+  637  kubectl delete deployment --all -n musicoapp
+  638  docker ps
+  639  kubectl apply -f musico-deploy.yaml
+  640  kubectl apply -f banco-deploy.yaml
+  641  docker ps
+  642  kubectl get po -n musicoapp
+  643  kubectl get svc -n musicoapp
+  644  kubectl get po -n musicoapp
+  645  kubectl logs musico-deploy-565ff9875-zbzfx -n musicoapp
+  646  kubectl get po -n musicoapp
+  647  docker run paulopalmuti/musico:latest
+  648  k get po -n musicoapp
+  649  cd ..
+  650  k get po -n musicoapp
+  651  alias k=kubectl
+  652  k get po -n musicoapp
+  653  k get svc -n musicoapp
+  654  kubectl port-forward svc/prometheus 9090 -n monitoring
+  655  kubectl port-forward svc/prometheus 9090 -n musicoapp
+  656  k get po -n musicoapp
+  657  kubectl logs <nbanco-musico-deploy-5c5cf7b6d8-wqc8vc banco-musico -n musicoapp
+  658  kubectl logs <nban-musico-deploy-5c5cf7b6d8-wqc8vc banco-musico -n musicoapp
+  659  kubectl logs banco-musico-deploy-5c5cf7b6d8-wqc8vc banco-musico -n musicoapp
+  660  kubectl logs banco-musico-deploy-5c5cf7b6d8-wqc8v -c banco-musico -n musicoapp
+  661  kubectl logs banco-musico-deploy-5c5cf7b6d8-wqc8vd -n musicoapp
+  662  kubectl get pod -n musicoapp
+  663  kubectl logs banco-musico-deploy-5c5cf7b6d8-wqc8v -n musico app
+  664  kubectl logs banco-musico-deploy-5c5cf7b6d8-wqc8v -n musicoapp
+  665  kubectl get pod banco-musico-deploy-5c5cf7b6d8-wqc8v -n musicoapp -o jsonpath="{.spec.containers[*].name}"
+  666  kubectl describe pod banco-musico-deploy-5c5cf7b6d8-wqc8v -n musicoapp
+  667  docker run -d -p 5432:5432 --name musico-database paulopalmuti/musico-database:latest
+  668  docker ps
+  669  docker exec -it musico-database bash
+  670  cd Docker/Banco
+  671  docker build . t PauloPalmuti/musico:database:latest
+  672  docker build . -t PauloPalmuti/musico:database:latest
+  673  docker build . -t PauloPalmuti/musico-database:latest
+  674  docker push paulopalmuti/musico-database:latest
+  675  docker run -d -p 5432:5432 --name musico-database paulopalmuti/musico-database:latest
+  676  docker ps
+  677  docker stop 32e20518ea1b
+  678  docker run -d -p 5432:5432 --name musico-database paulopalmuti/musico-database:latest
+  679  docker stop 32e20518ea1b
+  680  docker run -d -p 5432:5432 --name musico-database paulopalmuti/musico-database:latest
+  681  docker stop 32e20518ea1b
+  682  docker rm 32e20518ea1b
+  683  docker run -d -p 5432:5432 --name musico-database paulopalmuti/musico-database:latest
+  684  docker exec -it musico-database bash
+  685  psql -h localhost -U postgres -d musico
+  686  docker logs postgres-musico
+  687  docker logs musico:postgres
+  688  docker ps
+  689  docker build -f Dockerfile -t paulopalmuti/musico-database:latest .
+  690  docker push paulopalmuti/musico-database:late
+  691  docker push paulopalmuti/musico-database:latest
+  692  docker run -d -p 5432:5432 --name musico-database paulopalmuti/musico-database:latest
+  693  docker build -f Dockerfile -t paulopalmuti/musico-database:latest .
+  694  docker push paulopalmuti/musico-database:latest
+  695  docker run -d -p 5432:5432 3-name musico-database paulopalmuti/musico-database:latest
+  696  docker run -d -p 5432:5433 -name musico-database paulopalmuti/musico-database:latest
+  697  docker run -d -p 5432:5433 paulopalmuti/musico-database:latest
+  698  docker run -d -p 5432:5433 paups
+  699  docker ps
+  700  docker stop 488728667267
+  701  docker stop 73e7cccc3fc1
+  702  docker rm 73e7cccc3fc1
+  703  docker build -f Dockerfile -t paulopalmuti/musico-database:latest .
+  704  docker push paulopalmuti/musico-database:latest
+  705  docker run -d -p 5432:5433 paulopalmuti/musico-database:latest
+  706  docker ps
+  707  docker stop 606089b21e6d
+  708  docker rm 606089b21e6d
+  709  docker run -d -p80802:5433 paulopalmuti/musico-database:latest
+  710  docker run -d -p80 802:433 paulopalmuti/musico-database:latest
+  711  docker run -d -p 8080:5433 paulopalmuti/musico-database:latest
+  712  docker ps
+  713  docker stop 38606faa38c5
+  714  docker stop 7d4cbccf80da
+  715  dockerrmp 7d4cbccf80da
+  716  dockerr mp7d4cbccf80da
+  717  docker rm (docker ps -aq)
+  718  k8s
+  719  kubectl get po -n musicoapp
+  720  kubectl delete deploy --all -n musicoapp
+  721  kubectl delete desvc-all -n musicoapp
+  722  kubectl delete svc --all -n musicoapp
+  723  docker rm $(docker ps -aq)
+  724  docker stop $(docker ps -aq)
+  725  docker rm $(docker ps -aq)
+  726  docker ps
+  727  docker ps -a
+  728  kubectl get po
+  729  kubectl get po -musicoapp
+  730  kubectl get po -n musicoapp
+  731  kubectl get svc -n musicoapp
+  732  cd k8s
+  733  kubectl apply -f musico-deploy.yaml
+  734  kubectl apply -f musico-svc.yaml
+  735  kubectl get po -n musicoapp
+  736  cd ..
+  737  history > history.txt
+  738  docker run -it -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml --rm prom/prometheus
+  739  cd prometheus
+  740  docker run -it -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml --rm prom/prometheus
+  741  docker run -it --rm -p 3000:3000 grafana/grafana
+  742  docker ps
+  743  docker rm 6188ec4993d4
+  744  docker stop 6188ec4993d4
+  745  docker rm 6188ec4993d4
+  746  docker ps
+  747  docker stop 33b796bad255
+  748  docker rm 33b796bad255
+  749  docker stop e56a0c7d48cb
+  750  docker rm e56a0c7d48cb
+  751  docker ps
+  752  kubectl delete deployment --all -n musico app
+  753  kubectl delete deployment --all -n musicoapp
+  754  kubectl delete desvc all -n musicoapp
+  755  kubectl delete dec al--l -n musicoapp
+  756  kubectl delete svc -all  -n musicoapp
+  757  kubectl delete svc  -n musicoapp
+  758  kubectl delete svc -n musicoapp
+  759  kubectl delete svc --all -n musicoapp
+  760  docker ps
+  761  docker stop 64d96869e856
+  762  docker rm 64d96869e856
+  763  docker run -d   -p 9876:8080   -p 1234:5432   paulopalmuti/musico-database:latest
+  764  docker ps
+  765  docker logs great_burnell
+  766  docker logs vibrant_mestorf
+  767  docker ps
+  768  docker stop 07f3d7651d76
+  769  docker rm 07f3d7651d76
+  770  docker run -d   -p 9876:8080   -p 5432:5432   paulopalmuti/musico-database:latest
+  771  cd Docker/Banco
+  772  docker build -t paulopalmuti/musico-database:latest .
+  773  docker push paulopalmuti/musico-database:latest 
+  774  docker run -d   -p 9876:8080   -p 5432:5432   paulopalmuti/musico-database:latest
+  775  docker ps
+  776  docker stop 051b276ff095
+  777  docker rm 051b276ff095
+  778  docker run -d   -p 9876:8080   -p 5432:5432   paulopalmuti/musico-database:latest
+  779  docker stop fbf0951a225e8a4586852dc510d1bd5520b71cc2f7624361366acd0400b7823b
+  780  docker rm fbf0951a225e8a4586852dc510d1bd5520b71cc2f7624361366acd0400b7823b
+  781  docker ps
+  782  k
+  783  alias k=kubectl
+  784  k
+  785  k apply -f musico-deploy.yaml
+  786  cd..
+  787  cd ..
+  788  cd k8s
+  789  k apply -f musico-deploy.yaml
+  790  k apply -f banco-deploy.yaml
+  791  k apply -f banco-svc.yaml
+  792  k apply -f banco-monitoramento-svc.yaml
+  793  k apply -fmusico-svc.yaml
+  794  k get po -n musicoapp
+  795  k get svc -n musicoapp
+  796  k delete deployment --all -n musicoapp
+  797  k deletesvct --all -n musicoapp
+  798  k apply -f musico-deploy.yaml
+  799  k apply -f banco-deploy.yaml
+  800  k apply -f banco-svc.yaml
+  801  k apply -f banco-monitoramento-svc.yaml
+  802  k apply -f musico-svc.yaml
+  803  k get po -n musicoapp
+  804  k get svcpo -n musicoapp
+  805  k get svc -n musicoapp
+  806  k get po -n musicoapp
+  807  k delete musico-deploy-565ff9875-4dj5r
+  808  k delete musico-deploy-565ff9875-4dj5r -n musicoapp
+  809  k delete mpo usico-deploy-565ff9875-4dj5r -n musicoapp
+  810  k delete po musico-deploy-565ff9875-4dj5r -n musicoapp
+  811  k get po -n musicoapp
+  812  k logs po musico-deploy-565ff9875-qqmkf -n musicoapp
+  813  k logs musico-deploy-565ff9875-qqmkf -n musicoapp
+  814  k get po -n musicoapp
+  815  k delete po musico-deploy-565ff9875-qqmkf -n musicoapp
+  816  k apply -f musico-deploy.yaml -n musicoapp
+  817  k get po -n musicoapp
+  818  k delete deployment musico-deploy-565ff9875-7q2bn -n musicoapp
+  819  k delete deployment musico-deploy-565ff9875-7q2bn 
+  820  k delete deployment --all -n -musico app
+  821  k delete deployment --all -n -musicoapp
+  822  k get po -n musicoapp
+  823  k delete deployment --all -n -musicoapp
+  824  kubectl delete deployment --all -n musicoapp
+  825  k apply musico-deploy.yaml
+  826  k apply -f  musico-deploy.yaml
+  827  k apply -f banco-deploy.yaml
+  828  k get po -n musicoapp
+  829  k logs musico-deploy-7fb8dddc74-6r2nb 
+  830  k logs musico-deploy-7fb8dddc74-6r2nb -n musicoapp
+  831  k get po -n musicoapp
+  832  kubectl delete deployment --all -n musicoapp
+  833  kubectl delete svc --all -n musicoapp
+  834  cd ..
+  835  cd Docker/Banco/data
+  836  docker run --rm -it &(pwd):/var/lib/postgresql/data paulopalmuti/musico-database:latest
+  837  docker run --rm -it -v  &(pwd):/var/lib/postgresql/data paulopalmuti/musico-database:latest
+  838  docker run --rm -it -v  $(pwd):/var/lib/postgresql/data paulopalmuti/musico-database:latest
+  839  pwd
+  840  k delete pv --all -n musicoapp
+  841  k delete pvc --all -n musicoapp
+  842  alias k=kubectl
+  843  k delete pvc --all -n musicoapp
+  844  alias k=kubectl
+  845  k apply -f musico-pv.yaml
+  846  cd k8s
+  847  k apply -f musico-pv.yaml
+  848  k get pv -nmusicoapp
+  849  k delete pvc --all -n musicoapp
+  850  k get pv -nmusicoapp
+  851  k delete pvc --all -n musicoapp
+  852  k get pvc -n musicoapp
+  853  kubectl delete pvc musico-pvc --force --grace-period=0 -n musicoapp
+  854  k get pvc -n musicoapp
+  855  kubectl delete pv musico-pv --force --grace-period=0
+  856  k get pvc -n musicoapp
+  857  k get pvc-n musicoapp
+  858  k get pv -n musicoapp
+  859  k delete deployments --all -n musicoapp
+  860  k get pv -n musicoapp
+  861  k get pvc -n musicoapp
+  862  k apply -f musico-pv.yaml
+  863  k apply -f musico-pvc.yaml
+  864  k apply -f banco-pvc.yaml
+  865  k get pvc -n musicoapp
+  866  k apply -f musico-pvc.yaml
+  867  k apply -f banco-pvc.yaml
+  868  k get pvc -n musicoapp
+  869  k delete musico-pvc
+  870  k delete musico-pvc -n musicoapp
+  871  k get pvc -n musicoapp
+  872  k delete deployments --all -n musicoapp
+  873  k delete pvc --all -n musicoapp
+  874  k delete pv --all -n musicoapp
+  875  k apply -f musico-pv.yaml
+  876  k apply -f banco-pvc.yaml
+  877  k apply -f banco-deployment.yaml
+  878  k apply -f banco-deploy.yaml
+  879  k apply -f musico-deploy.yaml
+  880  k get po -n musicoapp
+  881  k apply -f musico-deploy.yaml
+  882  k get po -n musicoapp
+  883  k logs musico-deploy -n musicoapp
+  884  k logs musicmusico-deploy-7fb8dddc74-kspv2 -n musicoapp
+  885  s musicmusico-deploy-7fb8dddc74-kspv2 -n musicoapp
+  886  docker ps
+  887  docker stop 5c96e7e8ae92
+  888  docker rm 5c96e7e8ae92
+  889  docker build . -t paulopalmuti/musico-database:1.0
+  890  cd Dodkcer
+  891  cd docker
+  892  cd Docker
+  893  cd Banco
+  894  docker build . -t paulopalmuti/musico-database:1.0
+  895  docker build . -t paulopalmuti/musico-database:latest
+  896  docker b push  paulopalmuti/musico-database:latest
+  897  docker push  paulopalmuti/musico-database:latest
+  898  docker push  paulopalmuti/musico-database:1.0
+  899  docket tag paulopalmuti/musico:1.0 paulopalmuti/musico:latest
+  900  docker tag paulopalmuti/musico-database:1.0 paulopalmuti/musico-database:latest
+  901  docker push  paulopalmuti/musico-database:1.0
+  902  docker push  paulopalmuti/musico-database:latest
+  903  docker run -it -p 5432:5432 paulopalmuti/musico-database:latest
+  904  docker ps
+  905  sudo rm -r ./data
+  906  sudo mkdir data
+  907  cd data
+  908  id -u
+  909  docker run --rm -it   -v $(pwd):/var/lib/postgresql/data   -u 1000:1000   paulopalmuti/musico-database:latest
+  910  sudo docker run --rm -it   -v $(pwd):/var/lib/postgresql/data   -u 1000:1000   paulopalmuti/musico-database:latest
+  911  mkdir -p ./data
+  912  sudo chown 999:999 ./data
+  913  cd..
+  914  cd ..
+  915  mkdir -p ./data
+  916  sudo chown 999:999 ./data
+  917  cd data
+  918  docker run --rm -it -v  $(pwd):/var/lib/postgresql/data paulopalmuti/musico-database:latest
+  919  sudo chmod -R 777.
+  920  sudo chmod -R 777 .
+  921  cd ..
+  922  sudo cp -av ./data ../../k8s
+  923  sudo rm-rf ./data
+  924  sudo rm -rf ./data
+  925  history > history.txt
+  926  docker build . -t paulopalmuti/musico-database:1.0
+  927  docker push  paulopalmuti/musico-database:1.0
+  928  docker push  paulopalmuti/musico-database:latest
+  929  docker run -it -p 5432:5432 paulopalmuti/musico-database:latest
+  930  k get po -n musicoapp
+  931  alias k=kubectl
+  932  k get po -n musicoapp
+  933  k apply banco-svc.yaml
+  934  k apply -f banco-svc.yaml
+  935  cd ..
+  936  cd k8s
+  937  k apply -f banco-svc.yaml
+  938  k delete deployment --all -n musicoapp
+  939  k get pv -n musicoapp
+  940  k delete pvc --all -n musicoapp
+  941  k delete pv --all -n musicoapp
+  942  k get pv -n musicoapp
+  943  k get pvc -n musicoapp
+  944  k delete svc --all -n musicoapp
+  945  k apply musico-pv.yaml
+  946  k apply mus-f musico-pv.yaml
+  947  k apply mu musico-pv.yaml
+  948  cd k8s
+  949  k apply -f musico-pv.yaml
+  950  alais k=kubectl
+  951  alias k=kubectl
+  952  k apply -f musico-pv.yaml
+  953  k apply -f banco-pvc.yaml
+  954  cd data
+  955  pwd
+  956  cd ..
+  957  k apply -f banco-pvc.yaml
+  958  k apply -f musico-pv.yaml
+  959  k delete pvc --all -n musicoapp
+  960  k delete pv --all -n musicoapp
+  961  k apply -f musico-pv.yaml
+  962  k apply -f banco-pvc.yaml
+  963  k apply banco-deploy.yaml
+  964  k apply -f banco-deploy.yaml
+  965  k apply -f banco-svc.yaml
+  966  kubectl get svc
+  967  kubectl get svc -n musicoapp
+  968  k apply -f banco-deploy.yaml
+  969  k get po -n musicoapp
+  970  kubectl get svc -n musicoapp
+  971  kubectl get pvc -n musicoapp
+  972  docker run -it -p 5432:5432 leogloriainfnet/acme-database:latest
+  973  docker ps
+  974  docker run -it -p 5432:5432 leogloriainfnet/acme-database:latest
+  975  docker run -it -p 5432:5432 leogloriainfnet/acme-database:prod
+  976  docker ps
+  977  docker ps -a
+  978  docker run --rm -it --platform=linux/amd64 -p 5432:5432 leogloriainfnet/acme-database:latest
+  979  docker ps
+  980  docker ps -a
+  981  cd Doker/Banco/data
+  982  cd Docker
+  983  cd Banco
+  984  cd data
+  985  docker run --rm -it -v  $(pwd):/var/lib/postgresql/data paulopalmuti/musico-database:latest
+  986  logs musico-deploy-7fb8dddc74-kspv2 -n musicoapp
+  987  kubectl logs musico-deploy-7fb8dddc74-kspv2 -n musicoapp
+  988  cd k8s
+  989  sudo chmod -R 777 /data
+  990  sudo chmod -R 777 data
+  991  sudo chmod -R 777 /data
+  992  sudo chmod -R 777 ./data
+  993  sudo chown -R $USER:$USER ./data
+  994  sudo chown -R paulo:paulo ./data
+  995  sudo chown -R nobody:nogroup ./data
+  996  ls -ld /data
+  997  ls -l /
+  998  ls -ld ./data
+  999  ls -l /
+ 1000  sudo chown -R root:root ./data
+ 1001  cd ..
+ 1002  history > history.txt
+ 1003  git init
+ 1004  git add .
+ 1005  mvn clean
+ 1006  mvn package
+ 1007  docker build . -t paulopalmuti/musico:2.0
+ 1008  cd Docker
+ 1009  docker build . -t paulopalmuti/musico:2.0
+ 1010  docker build . -t paulopalmuti/musico:latest
+ 1011  docker tag paulopalmuti/musico:2.0 paulopalmuti/musico:latest
+ 1012  docker push paulopalmuti/musico:2.0
+ 1013  docker push paulopalmuti/musico:latest
+ 1014  k apply -f musico-deploy.yaml
+ 1015  cd ..
+ 1016  k apply -f musico-deploy.yaml
+ 1017  alias k=kubectl
+ 1018  k apply -f musico-deploy.yaml
+ 1019  cd k8s
+ 1020  k apply -f musico-deploy.yaml
+ 1021  k apply -f musico-svc.yaml
+ 1022  k get po -n musicoapp
+ 1023  k logs musico-deploy-7fb8dddc74-kq4n7
+ 1024  k logs musico-deploy-7fb8dddc74-kq4n7 -n musicoapp
+ 1025  k get po -n musicoapp
+ 1026  k logs musico-deploy-7fb8dddc74-kq4n7
+ 1027  k logs musico-deploy-7fb8dddc74-kq4n7 -n musicoapp
+ 1028  k get po -n musicoapp
+ 1029  k get svc -n musicoapp
+ 1030  cd ..
+ 1031  mvn clear
+ 1032  mvn clean
+ 1033  mvn package
+ 1034  cd docker
+ 1035  docker build . -t paulopalmuti/musico:2.0
+ 1036  cd Dcoker
+ 1037  cd Docker
+ 1038  docker build . -t paulopalmuti/musico:2.0
+ 1039  docker build . -t paulopalmuti/musico:latest
+ 1040  docker tag paulopalmuti/musico:2.0 paulopalmuti/musico:latest
+ 1041  docker build . -t paulopalmuti/musico:latest
+ 1042  docker push  paulopalmuti/musico:latest
+ 1043  docker push  paulopalmuti/musico:2.0
+ 1044  cd ..
+ 1045  cd k8s
+ 1046  k delete deployment -f musico-deploy.yaml 
+ 1047  k delete deployment -f musico-deploy.yaml -n musicoapp
+ 1048  k get po -n musicoapp
+ 1049  k delete deployment musico-deploy-7fb8dddc74-kq4n7 -n musicoapp
+ 1050  k get deployment -n musicoapp
+ 1051  k delete deployment musico-deploy -n musicoapp
+ 1052  k apply -f musico-deploy.yaml -n musicoapp
+ 1053  k get deppon musicoapp
+ 1054  k get po -n musicoapp
+ 1055  k logs musico-deploy-7fb8dddc74-7gjfd  
+ 1056  k logs musico-deploy-7fb8dddc74-7gjfd  -n musicoapp
+ 1057  k get po -n musicoapp
+ 1058  k get svc -n musicoapp
+ 1059  k logs musico-deploy-7fb8dddc74-7gjfd  -n musicoapp
+ 1060  cd Docker/Banco
+ 1061  docker build . -t paulopalmuti/musico-database:latest
+ 1062  docker push paulopalmuti/musico-database:latest
+ 1063  a
+ 1064  cd Docker/Banco/data
+ 1065  docker ps
+ 1066  docker stop ba3183c8f8be 
+ 1067  docker rm ba3183c8f8be 
+ 1068  sudo rm -rf Docker/Banco/data
+ 1069  cd Docker/Banco
+ 1070  sudo mkdir data
+ 1071  history > history.txt
+ 1072  cd data
+ 1073  sudo chown -R 999:999 ./data
+ 1074  sudo chmod -R 700 ./data
+ 1075  cd data
+ 1076  ls -ld data
+ 1077  sudo cd data
+ 1078  sudo ls data
+ 1079  cp -r data ../../k8s
+ 1080  sudo cp -r data ../../k8s
+ 1081  docker ps
+ 1082  docker rm bfd5a4185852
+ 1083  docker stop bfd5a4185852
+ 1084  docker rm bfd5a4185852
+ 1085  sudo rm -rf Docker/Banco/data
+ 1086  sudo rm -rf data
+ 1087  cd ..
+ 1088  cd k8s
+ 1089  k apply -f musico-pv.yaml
+ 1090  alias k=kubectl
+ 1091  k apply -f musico-pv.yaml
+ 1092  k get po -n musicoapp
+ 1093  k get pv -n musicoapp
+ 1094  k apply -f banco-pvc.yaml
+ 1095  k get pvc -n musicoapp
+ 1096  k apply -f banco-deploy.yaml
+ 1097  k get po -n musicoapp
+ 1098  k apply -f banco-svc.yaml
+ 1099  docker -v
+ 1100  cd
+ 1101  cd .
+ 1102  cd /
+ 1103  cd .
+ 1104  cd
+ 1105  ls
+ 1106  docker ps
+ 1107  docker volume ls
+ 1108  docker volume create meu-disco
+ 1109  docker volume ls
+ 1110  docker run ubuntu -v meu-disco
+ 1111  mkdir docker-aula
+ 1112  dockervolume la
+ 1113  docker volume ls
+ 1114  docker volume rm meu-discp
+ 1115  docker volume rm meu-disco
+ 1116  docker volume ls
+ 1117  docker volume meu-disco
+ 1118  docker volume create meu-disco
+ 1119  pwd
+ 1120  docker run ubuntu meu-disco:/docker-aula
+ 1121  docker run ubuntu -v meu-disco:/docker-aula
+ 1122  docker run ubuntu -v meu-disco:docker-aula
+ 1123  docker run -v meu-disco:docker-aula ubuntu
+ 1124  docker run -v meu-disco:/docker-aula ubuntu
+ 1125  docker run -it -v meu-disco:/docker-aula ubuntu
+ 1126  docker ps
+ 1127  docker ps -a
+ 1128  docker prune
+ 1129  docker container prune
+ 1130  docker ps
+ 1131  docker ps-a
+ 1132  docker ps- a
+ 1133  docker ps -a
+ 1134  mkdir docker-aula/temp
+ 1135  docker volume create arquivos_brutos -it --rm -v arquivos_brutos:/temp ubuntu
+ 1136  docker volume create arquivos_brutos -it --rm -v arquivos_brutos:/temp ubuntu /bin/bash
+ 1137  mkdir docker-aula/arquivos
+ 1138  touch docker-aula/arquivos/processamento1.csv
+ 1139  touch docker-aula/arquivos/processamento2.csv
+ 1140  docker run arquivos_brutos -it --rm -v arquivos_brutos:/temp -v /home/paulo/docker-aula/arquivos:/arquivos ubuntu /bin/bash
+ 1141  docker run -it --rm -v arquivos_brutos:/temp -v /home/paulo/docker-aula/arquivos:/arquivos ubuntu /bin/bash
+ 1142  docker ps
+ 1143  docker ps -a
+ 1144  docker volume ps
+ 1145  docker volume ls
+ 1146  docker volume rm meu-disco
+ 1147  docker volume ls
+ 1148  docker run -it --rm arunvelsriram/utils /bin/bash
+ 1149  docker network create -d bridge devops
+ 1150  clear
+ 1151  alias k=kubectl
+ 1152  ls
+ 1153  cd infnet
+ 1154  ls
+ 1155  mkdir postgres_export
+ 1156  cd postgres_export/
+ 1157  ls
+ 1158  docker run -it --rm -p 5432:5432 -v $(pwd):/backup postgres
+ 1159  docker run -it --rm -e POSTGRESS_PASSWORD=123456 -p 5432:5432 -v $(pwd):/backup postgres
+ 1160  docker run -it --rm -e POSTGRES_PASSWORD=123456 -p 5432:5432 -v $(pwd):/backup postgres
+ 1161  docker ps -a
+ 1162  docker container prune
+ 1163  docker container rm fef19ed0a674
+ 1164  docker stop fef19ed0a674
+ 1165  docker container rm fef19ed0a674
+ 1166  docker ps
+ 1167  docker ps -a
+ 1168  docker stop fef19ed0a674
+ 1169  docker stop all
+ 1170  docker stop -a
+ 1171  docker stop prune
+ 1172  dokcer p
+ 1173  docker ps -a
+ 1174  docker stop 6abd49571b8e
+ 1175  docker ps -a
+ 1176  docker stop -n cranky_payne
+ 1177  docker stop cranky_payne
+ 1178  docker ps -a
+ 1179  docker stop sleep_cray
+ 1180  docker ps -a
+ 1181  docker stop sleepy_cray
+ 1182  docker ps -a
+ 1183  docker ps
+ 1184  docker run -it --rm -p 6379:6379 redis
+ 1185  cd .
+ 1186  cd
+ 1187  ls
+ 1188  cd docker-atividade
+ 1189  ls
+ 1190  cd ..
+ 1191  cd infnet
+ 1192  ls
+ 1193  cd postgres_export
+ 1194  docker ps
+ 1195  docker exec -it a1e88039abec /bin/bash
+ 1196  ls
+ 1197  docker ps -pa
+ 1198  docker ps
+ 1199  docker prune
+ 1200  docker container prune
+ 1201  docker ps -a
+ 1202  docker ps
+ 1203  docker container prune
+ 1204  docker ps
+ 1205  docker rm a1e88039abec
+ 1206  docker stop a1e88039abec
+ 1207  docker container prune
+ 1208  docker ps
+ 1209  docker ps -a
+ 1210  redis-cli shutdown
+ 1211  docker stop redis
+ 1212  docker ps
+ 1213  docker stop confident_carver
+ 1214  k get po -n musicoapp
+ 1215  alias k=kubectl
+ 1216  k get po -n musicoapp
+ 1217  k delete po banco-musico-deploy-56b7667b74-4xfmg
+ 1218  k delete po banco-musico-deploy-56b7667b74-4xfmg -n musicoapp
+ 1219  k get po -n musicoapp
+ 1220  history > history.txt
+ 1221  sudo lsof -i :40863
+ 1222  sudo kill -9 26461
+ 1223  k get po -n musicoapp
+ 1224  alias k=kubectl
+ 1225  k get po -n musicoapp
+ 1226  k get po -n musicoapp
+ 1227  alias k=kubectl
+ 1228  k get po -n musicoapp
+ 1229  k delete deploymnet musico-deploy -n musicoapp
+ 1230  k delete deployment musico-deploy -n musicoapp
+ 1231  k apply -f musico-deploy.yaml
+ 1232  k apply -f musico-deploy.yaml -n musicoapp
+ 1233  cd k8s
+ 1234  k apply -f musico-deploy.yaml -n musicoapp
+ 1235  k get po -n musicoapp
+ 1236  docker ps
+ 1237  k get po -n musicoapp
+ 1238  k delete deploymnet musico-deploy -n musicoapp
+ 1239  k delete deployment musico-deploy -n musicoapp
+ 1240  k delete deploymnet musico-deploy -n musicoapp
+ 1241  k apply -f musico-deploy.yaml -n musicoapp
+ 1242  k get po -n musicoapp
+ 1243  k apply -f musico-deploy.yaml -n musicoapp
+ 1244  k get po -n musicoapp
+ 1245  k apply -f musico-deploy.yaml -n musicoapp
+ 1246  k get po -n musicoapp
+ 1247  docker ps
+ 1248  k get svc -n musicoapp
+ 1249  k delete deploymnet musico-deploy -n musicoapp
+ 1250  k delete deployment musico-deploy -n musicoapp
+ 1251  k apply -f musico-deploy.yaml -n musicoapp
+ 1252  k get po -n musicoapp
+ 1253  docker ps
+ 1254  docker logs 1d6c74bf7e92
+ 1255  docker ps
+ 1256  docker logs 1b80b311eea9
+ 1257  docker ps
+ 1258  docker logs 6339882684f3
+ 1259  docker ps
+ 1260  docker logs e94b20ad33ba
+ 1261  k apply -f musico-deploy.yaml -n musicoapp
+ 1262  k get po -n musicoapp
+ 1263  k delete deployment musico-deploy -n musicoapp
+ 1264  k apply -f musico-deploy.yaml -n musicoapp
+ 1265  k get po -n musicoapp
+ 1266  history
+ 1267  k get po -n musicoapp
+ 1268  k logs musico-deploy-588fc7c4bd-j42gh -n musicoapp
+ 1269  cd Docker/Banco
+ 1270  docker build . -t paulopalmuti/musico-database:1.0
+ 1271  docker tag paulopalmuti/musico-database:1.0 paulopalmuti/musico-database:latest
+ 1272  docker push paulopalmuti/musico-database:1.0
+ 1273  docker push paulopalmuti/musico-database:latest
+ 1274  docker run -it -p 5432:5432 paulopalmuti/musico-database:latest
+ 1275  history
+ 1276  kubectl logs deploy/banco-musico-deploy -n musicoapp
+ 1277  k apply -f banco-deploy.yaml -n musicoapp
+ 1278  alias k=kubectl
+ 1279  k apply -f banco-deploy.yaml -n musicoapp
+ 1280  cd k8s
+ 1281  k apply -f banco-deploy.yaml -n musicoapp
+ 1282  echo $HISTFILESIZE
+ 1283  echo $HISTSIZE
+ 1284  echo $HISTFILE
+ 1285  kubectl logs deploy/banco-musico-deploy -n musicoapp
+ 1286  docker ps
+ 1287  k apply -f banco-deploy.yaml -n musicoapp
+ 1288  docker ps
+ 1289  docker ps -a
+ 1290  docker ps 
+ 1291  kubectl logs deploy/banco-musico-deploy -n musicoapp
+ 1292  k delete deployment --all -n musicoapp
+ 1293  k apply -f banco-deploy.yaml -n musicoapp
+ 1294  k get po -n musico
+ 1295  k get po -n musicoapp
+ 1296  history
+ 1297  k get po -n musicoapp
+ 1298  kubectl exec -n musicoapp -it banco-musico-deploy-56b7667b74-zgbcn -- /bin/bash
+ 1299  k get pv 
+ 1300  k get pvc
+ 1301  k get pvc -n musicoapp
+ 1302  k delete deployment --all -n musicoapp
+ 1303  k apply -f banco-deploy.yaml
+ 1304  k delete deployment --all -n musicoapp
+ 1305  k delete pvc --all -n musicoapp
+ 1306  k delete pv --all -n musicoapp
+ 1307  k applt -f musico-pv.yaml
+ 1308  k apply -f musico-pv.yaml
+ 1309  k apply -f banco-pvc.yaml
+ 1310  k apply -f banco-deploy.yaml
+ 1311  docker ps
+ 1312  docker stop 7ed7addcb88c
+ 1313  docker rm 7ed7addcb88c
+ 1314  k delete pv --all -n musicoapp
+ 1315  k delete deployment --all -n musicoapp
+ 1316  k delete pvc --all -n musicoapp
+ 1317  k get pv
+ 1318  k apply -f musico-pv.yaml
+ 1319  k apply -f banco-pvc.yaml
+ 1320  k apply -f banco-deploy.yaml
+ 1321  k get po -n musicoapp
+ 1322  kubectl logs -n musicoapp deploy/banco-musico-deploy -c musicoapp
+ 1323  kubectl logs -n musicoapp deploy/banco-musico-deploy
+ 1324  docker ps
+ 1325  k apply musico-deploy.yaml
+ 1326  k apply -f musico-deploy.yaml
+ 1327  k apply -f musico-svc.yaml
+ 1328  k get po -n musicoapp
+ 1329  k get po -n musicoapp]
+ 1330  k get po -n musicoapp
+ 1331  k apply -f musico-svc.yaml
+ 1332  k apply -f musico-deploy.yaml
+ 1333  k get po -n musicoapp
+ 1334  k apply -f musico-deploy.yaml
+ 1335  k get po -n musicoapp
+ 1336  kubectl logs musico-deploy-5966cd5c44-2rmrz
+ 1337  kubectl logs musico-deploy-5966cd5c44-2rmrz -n musicoapp
+ 1338  k get po -n musicoapp
+ 1339  kubectl logs musico-deploy-5966cd5c44-2rmrz -n musicoapp
+ 1340  k get po -n musicoapp
+ 1341  kubectl logs musico-deploy-5966cd5c44-2rmrz -n musicoapp
+ 1342  k get po -n musicoapp
+ 1343  k apply -f musico-deploy.yaml
+ 1344  k get po -n musicoapp
+ 1345  k apply -f musico-deploy.yaml
+ 1346  k get po -n musicoapp
+ 1347  k apply -f musico-deploy.yaml
+ 1348  k get po -n musicoapp
+ 1349  k apply -f musico-deploy.yaml
+ 1350  k get po -n musicoapp
+ 1351  k delete deploymnet musico-deploy -n musicoapp
+ 1352  k get deployment -n musicoapp
+ 1353  k delete deployment musico-deploy -n musicoapp
+ 1354  k apply -f  musico-deploy -n musicoapp
+ 1355  k apply -f  musico-deploy.yaml -n musicoapp
+ 1356  k get po -n musicoapp
+ 1357  k delete deployment musico-deploy -n musicoapp
+ 1358  k apply -f  musico-deploy.yaml -n musicoapp
+ 1359  k get po -n musicoapp
+ 1360  kubectl logs deploy/banco-musico-deploy -n musicoapp
+ 1361  kubectl delete pvc banco-pvc -n musicoapp
+ 1362  k delete deployment --all -n musicoapp
+ 1363  alias k=kubectl
+ 1364  k delete deployment --all -n musicoapp
+ 1365  kubectl delete pvc banco-pvc -n musicoapp
+ 1366  sudo rm -rf /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data/*
+ 1367  kubectl patch pv musico-pv -p '{"spec":{"claimRef": null}}'
+ 1368  k apply banco-svc.yaml
+ 1369  k apply -f banco-svc.yaml
+ 1370  cd k8s k apply -f banco-pvc.yaml
+ 1371  cd k8s
+ 1372  k apply -f banco-pvc.yaml
+ 1373  kubectl logs deploy/banco-musico-deploy -n musicoapp
+ 1374  k apply -f banco-deploy.yaml
+ 1375  kubectl logs deploy/banco-musico-deploy -n musicoapp
+ 1376  k delete deployment --all -n musicoapp
+ 1377  kubectl delete pvc banco-pvc -n musicoapp
+ 1378  kubectl delete pv -all  -n musicoapp
+ 1379  kubectl delete pv --all  -n musicoapp
+ 1380  sudo rm -rf /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data/
+ 1381  cd ..
+ 1382  sudodu -sb ./Docker/Banco/data
+ 1383  sudo du -sb ./Docker/Banco/data
+ 1384  sudo cp -av ./Docker/Banco/data ./k8s | tee log_copia.txt
+ 1385  sudo du -sb /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 1386  sudo rm -rf /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data/
+ 1387  sudo rsync -avHAX --progress ./Docker/Banco/data ./k8s | tee log_copia.txt
+ 1388  sudo du -sb /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 1389  sudo du -sb ./Docker/Banco/data
+ 1390  k apply -f musico-pv.yaml
+ 1391  cd k8s
+ 1392  k apply -f musico-pv.yaml
+ 1393  k apply -f banco-pvc.yaml
+ 1394  k apply -f banco-deploy.yaml
+ 1395  kubectl logs deploy/banco-musico-deploy -n musicoapp
+ 1396  k get pod -n musico app
+ 1397  k get pod -n musicoapp
+ 1398  kubectl exec -it banco-musico-deploy-56b7667b74-6hrs8 -n musicoapp -- id
+ 1399  sudo chown -R 0:0 /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 1400  ls -ld /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 1401  ls -ld /home/paulo/docker-atividade/ContratacaoMusico/musico/Docker/Banco/data
+ 1402  sudo chown -R 999:999 /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 1403  ls -ld /home/paulo/docker-atividade/ContratacaoMusico/musico/Docker/Banco/data
+ 1404  k get po
+ 1405  k get po -n musicoapp
+ 1406  k delete po banco-musico-deploy-56b7667b74-6hrs8
+ 1407  k delete po banco-musico-deploy-56b7667b74-6hrs8 -n musicoapp
+ 1408  k get po -n musicoapp
+ 1409  ls -ld /home/paulo/docker-atividade/ContratacaoMusico/musico/Docker/Banco/data
+ 1410  ls -ld /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 1411  kubectl logs deploy/banco-musico-deploy -n musicoapp
+ 1412  k delete pv -n musicoapp
+ 1413  k delete deployment --all -n musicoapp
+ 1414  k delete pvc --all -n musicoapp
+ 1415  k delete pv --all -n musicoapp
+ 1416  k apply -f musico-pv.yaml
+ 1417  k apply -f banco-pvc.yaml
+ 1418  k apply -f banco-deploy.yaml
+ 1419  kubectl logs deploy/banco-musico-deploy -n musicoapp
+ 1420  k delete deployment --all -n musicoapp
+ 1421  k delete pvc --all -n musicoapp
+ 1422  k delete pv --all -n musicoapp
+ 1423  sudo rm -rf /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 1424  k apply -f musico-pv.yaml
+ 1425  k apply -f banco-pvc.yaml
+ 1426  k apply -f banco-deploy.yaml
+ 1427  kubectl logs deploy/banco-musico-deploy -n musicoapp
+ 1428  sudo rm -rf /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data/*
+ 1429  sudo ls -la /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 1430  cd /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 1431  mkdir /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 1432  k get pod -n musicoapp
+ 1433  kubectl exec -it kubectl exec -it <nome-do-pod> -n musicoapp -- bash -n musicoapp -- bash
+ 1434  kubectl exec -it banco-musico-deploy-56b7667b74-4xfmg -n musicoapp -- bash
+ 1435  kubectl exec -it banco-musico-deploy-56b7667b74-r6zg7 -n musicoapp -- bash
+ 1436  sudo chown -R 999:999 /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 1437  alias k=kubectl
+ 1438  k get po -n musicoapp
+ 1439  cd k8s
+ 1440  k apply musico-pv.yaml
+ 1441  k apply musico-pv.yaml -n musicoapp
+ 1442  k apply -f musico-pv.yaml -n musicoapp
+ 1443  k apply -f banco-pvc.yaml -n musicoapp
+ 1444  k apply -f banco-deply.yaml -n musicoapp
+ 1445  sudo chown -R 999:999 /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 1446  k apply -f musico-pv.yaml -n musicoapp
+ 1447  k get pv -n musicoapp
+ 1448  k apply -f musico-pv.yaml -n musicoapp
+ 1449  k apply -f banco-pvc.yaml -n musicoapp
+ 1450  k apply -f musico-pv.yaml -n musicoapp
+ 1451  k apply -f banco-pvc.yaml -n musicoapp
+ 1452  kubectl create namespace musicoapp
+ 1453  k apply -f banco-pvc.yaml -n musicoapp
+ 1454  k apply -f banco-deploy.yaml -n musicoapp
+ 1455  k apply -f banco-svc.yaml -n musicoapp
+ 1456  k get pvc -n musicoap
+ 1457  k get pvc -n musicoapp
+ 1458  k get po -n musicoapp
+ 1459  docker ps
+ 1460  k get po -n musicoapp
+ 1461  k get svc -n musicoapp
+ 1462  k apply -f banco-deploy.yaml -n musicoapp
+ 1463  k get po -n musicoapp
+ 1464  cd.
+ 1465  cd ..
+ 1466  cd Docker
+ 1467  cd Banco
+ 1468  mkdir data
+ 1469  docker build . -t paulopalmuti/musico-database:1.0
+ 1470  docker build . -t paulopalmuti/musico-database:latest
+ 1471  docker tag paulopalmuti/musico-database:1.0 paulopalmuti/musico-database:latest
+ 1472  docker push  paulopalmuti/musico-database:1.0
+ 1473  docker push  paulopalmuti/musico-database:latest
+ 1474  cd data
+ 1475  docker run --rm -it -v  $(pwd):/var/lib/postgresql/data paulopalmuti/musico-database:latest
+ 1476  docker run --rm -it -v -p 5432:5432  $(pwd):/var/lib/postgresql/data paulopalmuti/musico-database:latest
+ 1477  docker run --rm -it -p 5432:5432 -v $(pwd):/var/lib/postgresql/data paulopalmuti/musico-database:latest
+ 1478  cd ..
+ 1479  docker build . -t paulopalmuti/musico-database:1.0
+ 1480  docker build . -t paulopalmuti/musico-database:latest
+ 1481  docker push paulopalmuti/musico-database:latest
+ 1482  docker push paulopalmuti/musico-database:1.0
+ 1483  docker push paulopalmuti/musico-database:latest
+ 1484  ls -la .;data
+ 1485  ls -la ./data
+ 1486  sudo ls -la ./data
+ 1487  sudo stat ./data
+ 1488  sudo du -sh ./data
+ 1489  sudo du -sb ./data
+ 1490  sudo du -sb /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 1491  rm -rf /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 1492  cd ..
+ 1493  sudo cp -av ./Docker/Banco/data ./k8s | tee log_copia.txt
+ 1494  sudo du -sb /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 1495  sudo du -sb ./Docker/Banco/data
+ 1496  sudo cp -av ./Docker/Banco/data ./k8s | tee log_copia.txt
+ 1497  sudo diff -r ./Docker/Banco/data ./k8s | tee log_copia.txt
+ 1498  sudo diff -r ./Docker/Banco/data ./k8s/data | tee log_copia.txt
+ 1499  sudo rsync -av --checksum ./Docker/Banco/data ./k8s/data | tee log_copia.txt
+ 1500  sudo sudo rsync -avHAX --progress /caminho/origem/ /caminho/destino/ ./Docker/Banco/data ./k8s | tee log_copia.txt
+ 1501  sudo sudo rsync -avHAX --progress ./Docker/Banco/data ./k8s | tee log_copia.txt
+ 1502  sudo du -sb ./Docker/Banco/data
+ 1503  sudo du -sb ./k8s/data
+ 1504  rm -rf /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 1505  sudo rm -rf /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 1506  sudo sudo rsync -avHAX --progress ./Docker/Banco/data ./k8s | tee log_copia.txt
+ 1507  sudo du -sb ./Docker/Banco/data
+ 1508  sudo du -sb ./k8s/data
+ 1509  history > history.txt
+ 1510  script -a log_sessao.txt
+ 1511  cd k8s
+ 1512  k apply -f musico-pv.yaml
+ 1513  alias k=kubectl
+ 1514  k apply -f musico-pv.yaml
+ 1515  k apply -f banco-pvc.yaml
+ 1516  k apply -f banco-deploy.yaml
+ 1517  docker build . -t paulopalmuti/musico-database:1.0
+ 1518  cd ..
+ 1519  cd Docker
+ 1520  cd Banco
+ 1521  docker build . -t paulopalmuti/musico-database:1.0
+ 1522  docker build . -t paulopalmuti/musico-database:latest
+ 1523  docker push paulopalmuti/musico-database:latest
+ 1524  docker push paulopalmuti/musico-database:1.0
+ 1525  docker push paulopalmuti/musico-database:latest
+ 1526  cd ../..
+ 1527  cd k8s
+ 1528  k apply banco-deploy.yaml
+ 1529  k apply -f  banco-deploy.yaml
+ 1530  k delete deployment banco-deploy -n musicoapp
+ 1531  k delete deployment -all  -n musicoapp
+ 1532  k delete deployment --all  -n musicoapp
+ 1533  k apply -f  banco-deploy.yaml
+ 1534  k apply -f  banco-deploy.yaml -n musicoapp
+ 1535  kubectl delete pvc banco-pvc -n musicoapp
+ 1536  k get pvc -n musicoapp
+ 1537  k delete deploymnet
+ 1538  k delete deployment --all -n musicoapp
+ 1539  k get pvc -n musicoapp
+ 1540  ls -la /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 1541  sudo rm -rf /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 1542  mkdir /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 1543  k apply banco-pvc.yaml
+ 1544  k apply -f banco-pvc.yaml 
+ 1545  k apply -f banco-deploy.yaml 
+ 1546  ls -la /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 1547  k get po -n musicoapp
+ 1548  k delete deployment --all -n musicoapp
+ 1549  k delete pvc --all -n musicoapp
+ 1550  k delete pv --all -n musicoapp
+ 1551  ls -la /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 1552  rm -rf ./data/*
+ 1553  ls -la /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 1554  k apply -f musico-pv.yaml
+ 1555  k apply -f banco-pvc.yaml
+ 1556  k apply -f banco-deploy.yaml
+ 1557  k get po -n musicoapp
+ 1558  dokcer run -it -p 5432:5432 paulopalmuti/musico-database:latest
+ 1559  docker run -it -p 5432:5432 paulopalmuti/musico-database:latest
+ 1560  git commit -m "Configurando .github"
+ 1561  git add
+ 1562  git add .
+ 1563  git commit -m "Configurando .github"
+ 1564  git push
+ 1565  git remote -v
+ 1566  git add .
+ 1567  git commit -m "Configurando .github"
+ 1568  mkdir actions-runner && cd actions-runner
+ 1569  curl -o actions-runner-linux-x64-2.323.0.tar.gz -L https://github.com/actions/runner/releases/download/v2.323.0/actions-runner-linux-x64-2.323.0.tar.gz
+ 1570  echo "0dbc9bf5a58620fc52cb6cc0448abcca964a8d74b5f39773b7afcad9ab691e19  actions-runner-linux-x64-2.323.0.tar.gz" | shasum -a 256 -c
+ 1571  tar xzf ./actions-runner-linux-x64-2.323.0.tar.gz
+ 1572  ./config.sh --url https://github.com/paulosigiani/devops-infnet --token AQZRDZII2X5NFYN66BA7DRDIBFE42
+ 1573  ./run.sh
+ 1574  git init
+ 1575  git add ,
+ 1576  git add .
+ 1577  git commit -m "Primeiro commit"
+ 1578  git remote add origin https://github.com/paulosigiani/devops-infnet
+ 1579  git push -u origin main
+ 1580  git branch
+ 1581  git push -u origin master
+ 1582  git init
+ 1583  git add .
+ 1584  git commit -m "Primeiro commit"
+ 1585  git push -u origin main
+ 1586  git branch -m master main
+ 1587  git push -u origin main
+ 1588  git init
+ 1589  git add .
+ 1590  git commit -m "Primeiro commit"
+ 1591  git remote add origin https://github.com/paulosigiani/devops-infnet
+ 1592  git push -u origin main
+ 1593  git pull origin main
+ 1594  rm -rf .git
+ 1595  git init
+ 1596  git add .
+ 1597  git commit -m "Primeiro commit"
+ 1598  git remote add origin https://github.com/paulosigiani/devops-infnet
+ 1599  git push -u origin main
+ 1600  git pull origin main
+ 1601  rm -rf .git
+ 1602  git branch -m master main
+ 1603  git init
+ 1604  git add .
+ 1605  git commit -m "Primeiro commit"
+ 1606  git remote add origin https://github.com/paulosigiani/devops-infnet
+ 1607  git push -u origin main
+ 1608  rm -rf .git
+ 1609  git init
+ 1610  git branch -m main
+ 1611  git add .
+ 1612  git commit -m "Primeiro commit"
+ 1613  git remote add origin https://github.com/paulosigiani/devops-infnet
+ 1614  git branch -M main     
+ 1615  git push -u origin main
+ 1616  git pull origin main --rebase
+ 1617  git push origin main
+ 1618  k get po -n musicoapp
+ 1619  alias k=kubectl
+ 1620  k get po -n musicoapp
+ 1621  mvn clean
+ 1622  mvn package
+ 1623  cd Docker
+ 1624  docker build . -t paulopalmuti/musico:2.0
+ 1625  docker build . -t paulopalmuti/musico:latest
+ 1626  docker push paulopalmuti/musico:2.0
+ 1627  docker push paulopalmuti/musico:latest
+ 1628  cd ..
+ 1629  cd k8s
+ 1630  k get svc -n musicoapp
+ 1631  alias k=kubcetl
+ 1632  k get svc -n musicoapp
+ 1633  alias k=kubctl
+ 1634  alias k=kubectl
+ 1635  k get svc -n musicoapp
+ 1636  k apply musico-deploy.yaml -n musicoapp
+ 1637  k apply -f musico-deploy.yaml -n musicoapp
+ 1638  k delete deployment musico-deploy -n musicoapp
+ 1639  k apply -f musico-deploy.yaml -n musicoapp
+ 1640  k get po -n musicoapp
+ 1641  k logs musico-deploy-588fc7c4bd-v8cl5 -n musicoapp
+ 1642  kubectl get svc
+ 1643  kubectl get svc -n musicoapp
+ 1644  kubectl get pods -n musicoapp --show-labels
+ 1645  cd..
+ 1646  mvn clean
+ 1647  cd ..
+ 1648  mvn clean
+ 1649  mvn package
+ 1650  cd Docker
+ 1651  docker build . -t paulopalmuti/musico:2.0
+ 1652  docker build . -t paulopalmuti/musico:latest
+ 1653  docker push  paulopalmuti/musico:2.0
+ 1654  docker push  paulopalmuti/musico:latest
+ 1655  k delete deployment musico-deploy -n musicoapp
+ 1656  k apply -f musico-deploy.yaml -n musicoapp
+ 1657  cd ..
+ 1658  cd k8s
+ 1659  k apply -f musico-deploy.yaml -n musicoapp
+ 1660  k get po -n musicoapp
+ 1661  k logs musico-deploy-588fc7c4bd-xmjc6 -n musicoapp
+ 1662  k get po -n musicoapp
+ 1663  k logs musico-deploy-588fc7c4bd-xmjc6 -n musicoapp
+ 1664  k apply -f musico-deploy.yaml -n musicoapp
+ 1665  k get po -n musicoapp
+ 1666  k apply -f musico-deploy.yaml -n musicoapp
+ 1667  k get po -n musicoapp
+ 1668  k delete deploymnent musico-deploy -n musicoapp
+ 1669  k delete deploymnnt musico-deploy -n musicoapp
+ 1670  k delete deploymnent musico-deploy -n musicoapp
+ 1671  k delete deployment musico-deploy -n musicoapp
+ 1672  k apply -f musico-deploy.yaml -n musicoapp
+ 1673  k get po -n musicoapp
+ 1674  k apply -f musico-deploy.yaml -n musicoapp
+ 1675  k get po -n musicoapp
+ 1676  k delete deploymnent musico-deploy -n musicoapp
+ 1677  k delete deployment musico-deploy -n musicoapp
+ 1678  k apply -f musico-deploy.yaml -n musicoapp
+ 1679  k get po -n musicoapp
+ 1680  k delete deployment musico-deploy -n musicoapp
+ 1681  k apply -f musico-deploy.yaml -n musicoapp
+ 1682  k get po -n musicoapp
+ 1683  k logs deploy/musico-deploy -n musicoapp
+ 1684  k delete deployment musico-deploy -n musicoapp
+ 1685  k apply -f musico-deploy.yaml -n musicoapp
+ 1686  k get po -n musicoapp
+ 1687  k logs deploy/musico-deploy -n musicoapp
+ 1688  k get po -n musicoapp
+ 1689  k delete deployment musico-deploy -n musicoapp
+ 1690  k apply -f musico-deploy.yaml -n musicoapp
+ 1691  k get po -n musicoapp
+ 1692  k logs deploy/musico-deploy -n musicoapp
+ 1693  k get po -n musicoapp
+ 1694  history
+ 1695  git init
+ 1696  git add .
+ 1697  git commit -m "Configurando .github"
+ 1698  git push
+ 1699  ls
+ 1700  cd .git
+ 1701  ls
+ 1702  cd..
+ 1703  git push
+ 1704  history
+ 1705  rm -rf .git
+ 1706  cd ..
+ 1707  rm -rf .git
+ 1708  git commit -m "Configurando .github"
+ 1709  git push
+ 1710  git commit -m "Configurando .github"
+ 1711  git add
+ 1712  git commit -m "Configurando .github"
+ 1713  git push
+ 1714  git add .
+ 1715  git commit -m "Testando runner"
+ 1716  git push origin main
+ 1717  mvn -v
+ 1718  git commit -m "Testando runner"
+ 1719  git push origin main
+ 1720  git add
+ 1721  git add .
+ 1722  git commit -m "Testando runner"
+ 1723  git push origin main
+ 1724  git add .
+ 1725  git commit -m "Testando workflowr"
+ 1726  git commit --amend -m "Testando Workflow"
+ 1727  git push
+ 1728  git add .
+ 1729  git commit --amend -m "Testando Workflow"
+ 1730  git push
+ 1731  git add .
+ 1732  git commit -m "Testando workflowr"
+ 1733  git commit --amend -m "Testando Workflow"
+ 1734  git push
+ 1735  git pull origin main --rebase
+ 1736  git push origin main
+ 1737  git add .
+ 1738  git commit -m "Testando workflow"
+ 1739  git push
+ 1740  mvn test
+ 1741  git add .
+ 1742  git commit -m "TeAdiciona teste e passos MVN"
+ 1743  git push
+ 1744  git add .
+ 1745  git commit -m "TeAdiciona teste e passos MVN"
+ 1746  git commit --amend -m "Adiciona teste e passos MVN"
+ 1747  git push
+ 1748  git add .
+ 1749  git commit -m "Docker build"
+ 1750  git push
+ 1751  git add .
+ 1752  git commit -m "Docker push"
+ 1753  git push
+ 1754  git add .
+ 1755  git commit -m "Docker push"
+ 1756  git push
+ 1757  git add .
+ 1758  git commit -m "Configurando k8s"
+ 1759  git push
+ 1760  git init
+ 1761  git add .
+ 1762  git commit -m "Configurando .github"
+ 1763  git remote add origin https://github.com/paulosigiani/devops-infnet.git
+ 1764  git push -u origin main
+ 1765  git remote -v
+ 1766  git branch
+ 1767  git remote -v
+ 1768  git branch -m master main
+ 1769  git push -u origin main
+ 1770  git pull origin main --allow-unrelated-histories
+ 1771  git pull origin main --allow-unrelated-histories --no-rebase
+ 1772  git add .gitignore
+ 1773  git commit -m "Resolve conflito no .gitignore durante merge com remoto"
+ 1774  git push origin main
+ 1775  cd action-runner
+ 1776  cd actions-runner
+ 1777  ./run/sh
+ 1778  history
+ 1779  ./run.sh
+ 1780  rm -rf actions-runner
+ 1781  cd ..
+ 1782  rm -rf actions-runner
+ 1783  cd ..
+ 1784  ./config.sh remove --token AQZRDZPK6RMC5VS7GSH52XTIBFXRG
+ 1785  cd musico
+ 1786  ./config.sh remove --token AQZRDZPK6RMC5VS7GSH52XTIBFXRG
+ 1787  cd ..
+ 1788  mkdir actions-runner && cd actions-runner
+ 1789  curl -o actions-runner-linux-x64-2.323.0.tar.gz -L https://github.com/actions/runner/releases/download/v2.323.0/actions-runner-linux-x64-2.323.0.tar.gz
+ 1790  echo "0dbc9bf5a58620fc52cb6cc0448abcca964a8d74b5f39773b7afcad9ab691e19  actions-runner-linux-x64-2.323.0.tar.gz" | shasum -a 256 -c
+ 1791  tar xzf ./actions-runner-linux-x64-2.323.0.tar.gz
+ 1792  ./config.sh --url https://github.com/paulosigiani/devops-infnet --token AQZRDZL5D76OY7OQ33K2VXTIBFXUK
+ 1793  ./run.sh
+ 1794  k get po -n musicoapp
+ 1795  alias k=kubectl
+ 1796  k get po -n musicoapp
+ 1797  kubectl rollout restart deploy musico-deploy -n musicoapp
+ 1798  k get po -n musicoapp
+ 1799  history > history.txt
+ 1800  cd k8s/monitoramento/data
+ 1801  pwd
+ 1802  docker run -it -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml --rm prom/prometheus
+ 1803  cd ..
+ 1804  cd prometheus
+ 1805  docker run -it -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml --rm prom/prometheus
+ 1806  docker run -it -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml --rm prom/prometheus /bin/bash
+ 1807  docker run -it -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml --rm prom/prometheus bash
+ 1808  docker run -it   -p 9090:9090   -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml   prom/prometheus   sh
+ 1809  docker run -d --name prometheus   -p 9090:9090   -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml   prom/prometheus
+ 1810  docker exec -it prometheus sh
+ 1811  pwd
+ 1812  alias k=kubectl
+ 1813  docker ps
+ 1814  k get po -n musicoapp
+ 1815  docker stop e7f8c2d423e6
+ 1816  docker rm e7f8c2d423e6
+ 1817  docker ps
+ 1818  cd ..
+ 1819  cd monitoramento
+ 1820  cd k8s
+ 1821  cd monitoramento
+ 1822  k apply prometheus-pv -n musicoapp
+ 1823  k apply -f prometheus-pv.yaml -n musicoapp
+ 1824  k apply -f prometheus-pvc.yaml -n musicoapp
+ 1825  k apply -f prometheus-grafana-deploy.yaml -n musicoapp
+ 1826  k apply -f prometheus-svc.yaml -n musicoapp
+ 1827  k apply -fgrafanas-svc.yaml -n musicoapp
+ 1828  k apply -f grafana-svc.yaml -n musicoapp
+ 1829  k get po -n musicoapp
+ 1830  k get svc -n musicoapp
+ 1831  k get pv -n musicoapp
+ 1832  k get pvc -n musicoapp
+ 1833  k apply -f b../anco-svc.yaml -n musicoapp
+ 1834  k apply -f ../banco-svc.yaml -n musicoapp
+ 1835  k get svc -n musicoapp
+ 1836  k get po -n musicoapp
+ 1837  docker ps
+ 1838  k apply -f banco-deploy.yaml -n musicoapp
+ 1839  cd ..
+ 1840  k apply -f banco-deploy.yaml -n musicoapp
+ 1841  k delete -f banco-deploy.yaml -n musicoapp
+ 1842  k apply -f banco-deploy.yaml -n musicoapp
+ 1843  k get po -n musicoapp
+ 1844  k delete all --all -n musicoapp
+ 1845  k get pv -n musicoapp
+ 1846  k get pvc -n musicoapp
+ 1847  k get svc -n musicoapp
+ 1848  chmod +x subir-monitoramento.sh
+ 1849  chmod +x subir-todos-k8s.sh
+ 1850  ./subir-todos-k8s.sh
+ 1851  k delete all -all -n musicoapp
+ 1852  k delete all --all -n musicoapp
+ 1853  docker ps
+ 1854  docker ps -a
+ 1855  docker rm $(docker ps -aq)
+ 1856  docker ps -a
+ 1857  docker ps 
+ 1858  ./subir-todos-k8s.sh
+ 1859  k get po -n musicao
+ 1860  k get po -n musicapp
+ 1861  k get po -n musicoapp
+ 1862  kubectl describe pod monitoramento-deploy-75bcbc5f66-7wn25 -n musicoapp
+ 1863  k get pvc -n musicaoo
+ 1864  k get pvc -n musicoapp
+ 1865  k get pv -n musicoapp
+ 1866  k get pvc -n musicoapp
+ 1867  k apply monitoramento/prometheus-pvc.yaml
+ 1868  k apply -f monitoramento/prometheus-pvc.yaml
+ 1869  kdeletet pv prometheus-pvc c -n musicoapp
+ 1870  k delete pvc prometheus-pvc  -n musicoapp
+ 1871  k apply -f monitoramento/prometheus-pvc.yaml
+ 1872  k get pvc -n musicoapp
+ 1873  k get po -n musicoapp
+ 1874  kubectl describe pod monitoramento-deploy-75bcbc5f66-7wn25 -n musicoapp
+ 1875  k delete monitoramento-deploy -n musicoapp
+ 1876  k delete po  monitoramento-deploy -n musicoapp
+ 1877  k delete deployment  monitoramento-deploy -n musicoapp
+ 1878  ./subir-todos-k8s
+ 1879  ./subir-todos-k8s.sh
+ 1880  k get po -n musicoapp
+ 1881  monitoramento-deploy-75bcbc5f66-77fkb   1/2     CrashLoopBackOff   1 (8s ago)   17s
+ 1882  kubectl describe pod monitoramento-deploy-75bcbc5f66-77fkb -n musicoapp
+ 1883  kubectl logs monitoramento-deploy-75bcbc5f66-77fkb -n musicoapp -c prometheus-container
+ 1884  cd ..
+ 1885  cd prometheus
+ 1886  chmod -R 777 /caminho/do/pv
+ 1887  chmod -R 777 .
+ 1888  k get po -n musicoapp
+ 1889  k delete deployment  monitoramento-deploy -n musicoapp
+ 1890  k apply -f monitoramento/prometheus-pvc.yaml
+ 1891  cd ..
+ 1892  ./subir-todos-k8s.sh
+ 1893  cd k8s
+ 1894  ./subir-todos-k8s.sh
+ 1895  k get po -n musicoapp
+ 1896  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 1897  k get po -n musicoapp
+ 1898  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 1899  k get po -n musicoapp
+ 1900  k delete deployment monitoramneto-deployment
+ 1901  k delete deployment monitoramneto-deployment -n musicoapp
+ 1902  k delete deployment monitoramento-deployment -n musicoapp
+ 1903  k get deployment -n -musicoapp
+ 1904  k get deployment -n musicoapp
+ 1905  k delete deployment monitoramento-deploy -n musicoapp
+ 1906  k get po -n musicoapp
+ 1907  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 1908  k get po -n musicoapp
+ 1909  kubectl logs monitoramento-deploy-67d9954db6-q5v4g -n musicoapp -c prometheus-container
+ 1910  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 1911  k get po -n musicoapp
+ 1912  kubectl describe pod monitoramento-deploy-85746cc8df-cmll6 -n musicoapp
+ 1913  k get po -n musicoapp
+ 1914  kubectl describe pod monitoramento-deploy-85746cc8df-cmll6 -n musicoapp
+ 1915  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 1916  k get po -n musicoapp
+ 1917  kubectl describe pod monitoramento-deploy-75bcbc5f66-stt56 -n musicoapp
+ 1918  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 1919  k get po -n musicoapp
+ 1920  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 1921  k get po -n musicoapp
+ 1922  kubectl exec -it monitoramento-deploy-55dc8548fb-xx5tz -n musicoapp -c prometheus-container -- /bin/sh
+ 1923  k get po -n musicoapp
+ 1924  kubectl logs monitoramento-deploy-55dc8548fb-xx5tz  -n musicoapp -c prometheus-container
+ 1925  sudo mkdir -p /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 1926  sudo chmod -R 777 /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 1927  k get po -n musicoapp
+ 1928  k delete deployment monitoramento-deploy
+ 1929  k delete deployment monitoramento-deploy -n musicoapp
+ 1930  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 1931  k get po -n musicoapp
+ 1932  kubectl logs monitoramento-deploy-749bc75b4f-frtdp  -n musicoapp -c prometheus-container
+ 1933  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 1934  k get po -n musicoapp
+ 1935  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 1936  k get po -n musicoapp
+ 1937  k delete deployment monitoramento-deploy -n musicoapp
+ 1938  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 1939  k get po -n musicoapp
+ 1940  kubectl logs momonitoramento-deploy-749bc75b4f-fjqt5n musicoapp -c prometheus-container
+ 1941  kubectl logs momonitoramento-deploy-749bc75b4f-fjqt5n     m -usicoapp -c prometheus-container
+ 1942  kubectl logs momonitoramento-deploy-749bc75b4f-fjqt5n     -n-usoapp -c prometheus-container
+ 1943  kubectl logs momonitoramento-deploy-749bc75b4f-fjqt5n  -n musicoapp -c prometheus-container
+ 1944  k get pods -n musicoapp
+ 1945  alias k=kubectl
+ 1946  k get pods -n musicoapp
+ 1947  kubectl logs momonitoramento-deploy-749bc75b4f-fjqt5  -n musicoapp -c prometheus-container
+ 1948  kubectl logs monitoramento-deploy-749bc75b4f-fjqt5  -n musicoapp -c prometheus-container
+ 1949  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 1950  cd k8s
+ 1951  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 1952  k get pods -n musicoapp
+ 1953  kubectl logs monitoramento-deploy-745fbf869c65-kw4sz-n musicoapp -c prometheus-container
+ 1954  kubectl logs monitoramento-deploy-745fbf869c65-kw4sz -n musicoapp -c prometheus-container
+ 1955  kubectl logs monitoramento-deploy-5fbf869c65-kw4sz  -n musicoapp -c prometheus-container
+ 1956  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 1957  k get pods -n musicoapp
+ 1958  kubectl logsmonitoramento-deploy-75bcbc5f66-q9grdz  -n musicoapp -c prometheus-container
+ 1959  kubectl logsm onitoramento-deploy-75bcbc5f66-q9grdz  -n musicoapp -c prometheus-container
+ 1960  kubectl logs nmoitoramento-deploy-75bcbc5f66-q9grdz  -n musicoapp -c prometheus-container
+ 1961  kubectl logs monitoramento-deploy-75bcbc5f66-q9grdz  -n musicoapp -c prometheus-container
+ 1962  kubectl logs monitoramento-deploy-75bcbc5f66-q9grd  -n musicoapp -c prometheus-container
+ 1963  sudo mkdir -p /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 1964  sudo chmod -R 777 /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 1965  sudo mkdir -p /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 1966  sudo chmod -R 777 /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 1967  sudo chmod -R 700 /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 1968  k delete deployment musico-deploy -n musicoapp
+ 1969  k apply -f monitoramneto/prometheus-grafana-deploy.yaml -n musicoapp
+ 1970  k apply -f monitoramento/prometheus-grafana-deploy.yaml -n musicoapp
+ 1971  k get
+ 1972  k delete deployment musico-deploy -n musicoapp
+ 1973  k get po -n musicoapp
+ 1974  k delete all --all -n musicoapp
+ 1975  ./subir-todos-k8s.sh
+ 1976  k get po -n musicoapp
+ 1977  kubectl logs monitoramento-deploy-75bcbc5f66-m8tvv  -n musicoapp -c prometheus-container
+ 1978  sudo chown -R nobody:nogroup /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 1979  sudo chmod -R 777 /he/pome/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 1980  sudo chown -R nobody:nogroup /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 1981  sudo chmod -R 777 /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 1982  sudo chmod -R 999 /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 1983  sudo chmod -R 999:999 /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 1984  sudo ownod -R 999:999 /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 1985  sudo ownochd -999:999 /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 1986  kubcetl get po
+ 1987  kubectl get po
+ 1988  kubectl get po -n musicoapp
+ 1989  kubectl logs deploy/musico-deploy -n musicoapp
+ 1990  cd..
+ 1991  ls
+ 1992  cd ..
+ 1993  ls
+ 1994  cd actions-runner
+ 1995  ./run.sh
+ 1996  sudo chown -999:999 /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 1997  sudo chown 999:999 /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 1998  k get po -n musicoapp
+ 1999  sudo chown 999:999 /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 2000  alias k=kubectl
+ 2001  sudo chown 999:999 /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 2002  k get po -n musicoapp
+ 2003  ssudo chown -R nobody:nogroup /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 2004  uudo chown -R nobody:nogroup /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 2005  sudo chown -R nobody:nogroup /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 2006  k get po -n musicoapp
+ 2007  sudo chown -R root:root   /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 2008  k delete pv prometheus-pvc -n musicoapp
+ 2009  k delete pv prometheus-pc -n musicoapp
+ 2010  k delete pv prometheus-pv -n musicoapp
+ 2011  k delete deployment monitoramento=de-loy -n musicoapp
+ 2012  k delete deployment monitoramento-deploy -n musicoapp
+ 2013  k get pv -n musicoapp
+ 2014  k get pvc -n musicoapp
+ 2015  k delete pvc prometheus-pvc  -n musicoapp
+ 2016  k get pvc -n musicoapp
+ 2017  k get pv -n musicoapp
+ 2018  cd k8s
+ 2019  ./subir-todos-k8s
+ 2020  ./subir-todos-k8s.sh
+ 2021  k get po -n musicoapp
+ 2022  k delete all --all -n musicoapp
+ 2023  k delete pvc prometheus-pvc  -n musicoapp
+ 2024  k delete pv prometheus-pv  -n musicoapp
+ 2025  k get po -n musicoapp
+ 2026  k get pv -n musicoapp
+ 2027  cd ..
+ 2028  mkdir prometheus
+ 2029  cd k8s
+ 2030  ./sudo-todos-k8s.sh
+ 2031  ./subir-todos-k8s.sh
+ 2032  k get po -n musicoapp
+ 2033  kubectl logs deploy/musico-deploy -n musicoapp
+ 2034  kubectl logs deploy/monitoramento-deploy -n musicoapp
+ 2035  sudo chown 65534:65534 /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 2036  k get po -n musicoapp
+ 2037  ./subir-todos-k8s.sh
+ 2038  k delete po monitoramento-deploy -n musicoapp
+ 2039  k get po -n musicoapp
+ 2040  k delete po monitoramento-deploy-75bcbc5f66-6sqsv  -n musicoapp
+ 2041  k get po -n musicoapp
+ 2042  k logs monitoramento-deploy-75bcbc5f66-hxw4w -n musicoapp -c prometheus-container
+ 2043  docker run -it -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml --rm prom/prometheus
+ 2044  cd ..
+ 2045  docker run -it -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml --rm prom/prometheus
+ 2046  cd prometheus
+ 2047  docker run -it -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml --rm prom/prometheus
+ 2048  docker run -id-p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml --rm prom/prometheus
+ 2049  docker run -it -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml --rm prom/prometheus
+ 2050  docker run -d--p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml --rm prom/prometheus
+ 2051  docker run -d -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml --rm prom/prometheus
+ 2052  k get po -n musicoapp
+ 2053  docker ps
+ 2054  docker exec 9263c71489aa ./bin/bash
+ 2055  docker exec 9263c71489aa sh
+ 2056  docker exec it 9263c71489aa sh
+ 2057  docker exec -it 9263c71489aa sh
+ 2058  sudo chown -R 65534:65534 /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 2059  k get po -n musicoapp
+ 2060  k delete deployment monitoramento-deploy -n musicoapp 
+ 2061  k get po -n musicoapp
+ 2062  cd ..
+ 2063  k apply -f monitoramento/prometheus-grafana.yaml
+ 2064  k apply -f monitoramento/prometheus-grafana.yaml -n musicoapp
+ 2065  k apply -f monitoramento/prometheus-grafana-deploy.yaml -n musicoapp
+ 2066  cd k8s
+ 2067  k apply -f monitoramento/prometheus-grafana-deploy.yaml -n musicoapp
+ 2068  nano ~/.bashrc
+ 2069  source ~/.bashrc
+ 2070  echo $HISTSIZE; echo $HISTFILESIZE
+ 2071  echo $HISTSIZE; echo $HISTFILESIZE
+ 2072  k get po -n musicoapp
+ 2073  k logs monitoramento-deploy-75bcbc5f66-lbkbl -n musicoapp -c prometheus-container
+ 2074  k apply -f monitoramento/prometheus-grafana-deploy.yaml -n musicoapp
+ 2075  cd ..
+ 2076  cd prometheus
+ 2077  sudo chmod -R o+rw .
+ 2078  k get po -n musicoapp
+ 2079  k delete monitoramento-deploy-75bcbc5f66-lbkbl -n musicoapp
+ 2080  k delete po monitoramento-deploy-75bcbc5f66-lbkbl -n musicoapp
+ 2081  k get po -n musicoapp
+ 2082  k apply -f monitoramento/prometheus-grafana-deploy.yaml -n musicoapp
+ 2083  cd ..
+ 2084  cd k8s
+ 2085  k apply -f monitoramento/prometheus-grafana-deploy.yaml -n musicoapp
+ 2086  k get po -n musicoapp
+ 2087  k logs monitoramento-deploy-7cfd9b44bb-gh9z5 -n musicoapp -c prometheus-container
+ 2088  sudo chown -R 65534:65534 /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 2089  sudo chmod -R 777 /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus
+ 2090  kubectl delete pod -n musicoapp -l app=monitoramento
+ 2091  k get po -n musicoapp
+ 2092  k delete deployment monitoramento-deploy -n musicoapp
+ 2093  k apply -f monitoramento/prometheus-grafana-deploy.yaml -n musicoapp
+ 2094  k get po -n musicoapp
+ 2095  k apply -f monitoramento/prometheus-grafana-deploy.yaml -n musicoapp
+ 2096  k get po -n musicoapp
+ 2097  k get svc -n musicoapp
+ 2098  ./subir-todos-k8s.sh
+ 2099  k get svc -n musicoapp
+ 2100  docker ps
+ 2101  docker rm %(docker ps -aq)
+ 2102  docker rm 4(docker ps -aq)
+ 2103  docker rm $(docker ps -aq)
+ 2104  k get svc -n musicoapp
+ 2105  k get po -n musicoapp
+ 2106  docker ps
+ 2107  docker rm $(docker ps -aq)
+ 2108  docker stop $(docker ps -aq)
+ 2109  docker rm $(docker ps -aq)
+ 2110  docker ps
+ 2111  k get po -n musicoapp
+ 2112  docker ps
+ 2113  k get po -n musicoapp
+ 2114  k delete all --all -n musicoapp
+ 2115  ./subir-todos-k8s.sh
+ 2116  k get po -n musicoapp
+ 2117  k get svc -n musicoapp
+ 2118  ./subir-todos-k8s.sh
+ 2119  k get svc -n musicoapp
+ 2120  k get po -n musicoapp
+ 2121  k get svc -n musicoapp
+ 2122  ./subir-todos-k8s.sh
+ 2123  k get po -n musicoapp
+ 2124  k logs musico-deploy -n musicoapp
+ 2125  k logs deployment musico-deploy -n musicoapp
+ 2126  k logs deploy/musico-deploy -n musicoapp
+ 2127  k delete deployment banco-deploy -n musicoapp
+ 2128  ./subir-todos-k8s.sh
+ 2129  k pode
+ 2130  k get po -n musicoapp
+ 2131  k delete all --all -n musicoapp
+ 2132  ./subir-todos-k8s.sh
+ 2133  k get po -n musicoapp
+ 2134  k get all -n musicoapp
+ 2135  k logs deploy/banco-deploy -n musico app
+ 2136  k logs deploy/banco-deploy -n musicoapp
+ 2137  k get all -n musicoapp
+ 2138  kubectl logs pod/banco-deploy-56b7667b74-dqcfh
+ 2139  kubectl logs pod/banco-deploy-56b7667b74-dqcfh -n musicoapp
+ 2140  docker run paulopalmuti/musico-database:latest
+ 2141  cd ..
+ 2142  cd Docker/Banco
+ 2143  docker build paulopalmuti/musico-database:1.0
+ 2144  docker build . -t paulopalmuti/musico-database:1.0
+ 2145  docker tag paulopalmuti/musico-database:1.0 paulopalmuti/musico-database:latest
+ 2146  docker push  paulopalmuti/musico-database:1.0
+ 2147  docker push  paulopalmuti/musico-database:latest
+ 2148  docker run paulopalmuti/musico-database:latest
+ 2149  cd ../..
+ 2150  cd k8s
+ 2151  ./ubir-todos-k8s.sh
+ 2152  ./subir-todos-k8s.sh
+ 2153  k delete all --all -n musicoapp
+ 2154  ./subir-todos-k8s.sh
+ 2155  k get po -n musicoapp
+ 2156  k logs banco-deploy-56b7667b74-5bxhp -n musicoapp
+ 2157  ./subir-todos-k8s.sh
+ 2158  k get svc -n musicoapp
+ 2159  k delete all --all -n musicoapp
+ 2160  cd ..
+ 2161  sudo du -sb ./Docker/Banco/data
+ 2162  sudo rsync -avHAX --progress ./Docker/Banco/data ./k8s | tee log_copia.txt
+ 2163  sudo du -sb /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 2164  cd k8s
+ 2165  k apply -f banco-svc.yaml -n musicoapp
+ 2166  k apply -f banco-deploy.yaml -n musicoapp
+ 2167  k get svc -n musicoapp
+ 2168  k get po -n musicoapp
+ 2169  ls -la /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 2170  k delete all --all -n musicoapp
+ 2171  sudo chown 999:999 ./data
+ 2172  cd data
+ 2173  sudo cd data
+ 2174  sudo
+ 2175  cd data
+ 2176  sudo chmod -R 777 data.
+ 2177  sudo chmod -R 777 data
+ 2178  cd data
+ 2179  sudo chown -R nobody:nogroup data
+ 2180  sudo chown -R nobody:nogroup .
+ 2181  sudo chown -R paulo:paulo data
+ 2182  sudo chown -R 0:0 /home/paulo/docker-atividade/ContratacaoMusico/musico/k8s/data
+ 2183  k apply -f banco-deploy.yaml -n musicoapp
+ 2184  k apply -f banco-svc.yaml -n musicoapp
+ 2185  cd ..
+ 2186  k apply -f banco-svc.yaml -n musicoapp
+ 2187  k apply -f banco-deploy.yaml -n musicoapp
+ 2188  k get svc -n musicoapp
+ 2189  cd ..
+ 2190  cd Docker/Banco
+ 2191  docker build . -t paulopalmuti/musico-database:1.0
+ 2192  docker build . -t paulopalmuti/musico-database:latest
+ 2193  docker push paulopalmuti/musico-database:1.0
+ 2194  docker push paulopalmuti/musico-database:latest
+ 2195  k delete all --all -n musicoapp
+ 2196  k apply -f banco-svc.yaml -n musicoapp
+ 2197  k apply -f banco-deploy.yaml -n musicoapp
+ 2198  cd ../..
+ 2199  cd k8s
+ 2200  k apply -f banco-deploy.yaml -n musicoapp
+ 2201  k apply -f banco-svc.yaml -n musicoapp
+ 2202  k get svc -n musicoapp
+ 2203  cd data
+ 2204  docker run --rm -it -v -p 5432:5432  $(pwd):/var/lib/postgresql/data paulopalmuti/musico-database:latest
+ 2205  docker run --rm -it -p 5432:5432 -v $(pwd):/var/lib/postgresql/data paulopalmuti/musico-database:latest
+ 2206  docker ps
+ 2207  docker stop $(docker ps -aq)
+ 2208  docker rm $(docker ps -aq)
+ 2209  k getpod svc -n musicoapp
+ 2210  k getpod po -n musicoapp
+ 2211  k get pod po -n musicoapp
+ 2212  k get pod  -n musicoapp
+ 2213  k get svc  -n musicoapp
+ 2214  k delete all --all -n musico app
+ 2215  k delete all --all -n musicoapp
+ 2216  k delete pvc banco-pvc -n musicoapp
+ 2217  k delete pv musico-pv -n musicoapp
+ 2218  k get pv musico-pv -n musicoapp
+ 2219  k get pv  -n musicoapp
+ 2220  docker run --rm -it -p 5432:5432 -v $(pwd):/var/lib/postgresql/data paulopalmuti/musico-database:latest
+ 2221  docker run --rmdit -p 5432:5432 -v $(pwd):/var/lib/postgresql/data paulopalmuti/musico-database:latest
+ 2222  docker run --rm -d -p 5432:5432 -v $(pwd):/var/lib/postgresql/data paulopalmuti/musico-database:latest
+ 2223  cd ..
+ 2224  k apply musico-pv.yaml
+ 2225  k apply -f musico-pv.yaml
+ 2226  k apply -f banco-pvc.yaml
+ 2227  k apply -f banco-deploy.yaml
+ 2228  k apply -f banco-svc.yaml
+ 2229  k get svc -n msuicoapp
+ 2230  k get svc -n musicoapp
+ 2231  cd k8s
+ 2232  ./sobetudo.sh
+ 2233  ./sobe-tudo.sh
+ 2234  k get po -n msuicoapp
+ 2235  alias k=kubectl
+ 2236  k get po -n msuicoapp
+ 2237  k get po -n musicoapp
+ 2238  k get po -n msuicoapp
+ 2239  k get po -n musicoapp
+ 2240  k get po svc - musicoapp
+ 2241  k get po  - mumusicoapp
+ 2242  k get po  -musicoapp
+ 2243  k get po  -n musicoapp
+ 2244  k get psvc -n musicoapp
+ 2245  k get svc -n musicoapp
+ 2246  docker ps
+ 2247  docker exec 15978c447cd7 sh
+ 2248  docker exec-it 15978c447cd7 sh
+ 2249  docker exec -it 15978c447cd7 sh
+ 2250  k get po -n musicoapp
+ 2251  k delete monitoramento-deploy-7c5748c6f8-8nlph -n musicoapp
+ 2252  k delete po monitoramento-deploy-7c5748c6f8-8nlph -n musicoapp
+ 2253  k get po -n musicoapp
+ 2254  docker ps
+ 2255  docker exec -it e8323874d805
+ 2256  docker exec -it e8323874d805 sh
+ 2257  ./sobe-tudo.sh
+ 2258  k get po -n musicoapp
+ 2259  k logs monitoramento-deploy-67cc546447-xjttt -n musicoapp
+ 2260  k logs monitoramento-deploy-67cc546447-xjttt -n musicoapp -c prometheus-container
+ 2261  kubectl describe pod monitoramento-deploy-67cc546447-xjttt -n musicoapp
+ 2262  k delete pvc prometheus-pvc -n musicoapp
+ 2263  k delete deploy monitoramento-deploy -n musicoapp
+ 2264  k get pvc -n musicoapp
+ 2265  ./sobe-tudo.sh
+ 2266  k get pvc -n musicoapp
+ 2267  k get pv -n musicoapp
+ 2268  kubectl delete pvc prometheus-pvc -n musicoapp
+ 2269  k get pv -n musicoapp
+ 2270  kubectl delete pvc prometheus-pvc -n musicoapp
+ 2271  kubectl get pvc  -n musicoapp
+ 2272  k delete pv prometheus-pv -n musicoapp
+ 2273  kubectl get pvc  -n musicoapp
+ 2274  kubectl get pv  -n musicoapp
+ 2275  ./sobe-tudo.sh
+ 2276  kubectl get all  -n musicoapp
+ 2277  kubectl get pv  -n musicoapp
+ 2278  kubectl get pvc  -n musicoapp
+ 2279  kubectl get po  -n musicoapp
+ 2280  kubectl describe pod monitoramento-deploy-67cc546447-d6rxq -n musicoapp
+ 2281  ./sobe-tudo.sh
+ 2282  kubectl get po  -n musicoapp
+ 2283  k logs monitoramento-deploy-6cdb7f4485-thz22 -n musicoapp
+ 2284  k logs monitoramento-deploy-6cdb7f4485-thz22 -n musicoapp -c prometheus-container
+ 2285  ./sobe-tudo.sh
+ 2286  kubectl get po  -n musicoapp
+ 2287  k get pvc -n musicoapp
+ 2288  k ges pvc -n musicoapp
+ 2289  k ges pt s-n musicoapp
+ 2290  k get svc -n musicoapp
+ 2291  k apply prometheus-grafana-deploy.yaml
+ 2292  k apply -f prometheus-grafana-deploy.yaml
+ 2293  k apply -monitoramento/f prometheus-grafana-deploy.yaml
+ 2294  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 2295  k ges pt s-n musicoapp
+ 2296  k get po -n musicoapp
+ 2297  k logs monitoramento-deploy-6955c7f8b6-9nkm5 -n musicoapp
+ 2298  k logs monitoramento-deploy-6955c7f8b6-9nkm5 -n musicoapp -c prometheus-container
+ 2299  k describe monitoramento-deploy-6955c7f8b6-9nkm5
+ 2300  k describe monitoramento-deploy-6955c7f8b6-9nkm5 -n musicoapp
+ 2301  k describe monitoramento-deploy-6n musicoapp
+ 2302  k describe monitoramento-deploy -n musicoapp
+ 2303  k describe pod monitoramento-deploy-6955c7f8b6-9nkm5 -n musicoapp
+ 2304  ls -l /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus/prometheus.yml
+ 2305  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 2306  k get po -n musicoapp
+ 2307  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 2308  k get po -n musicoapp
+ 2309  k delete po monitoramento-deploy-6955c7f8b6-x2qqt -n musico
+ 2310  k get po -n musicoapp
+ 2311  k logs monitoramento-deploy-5b79b7d885-t2pff -n musicoapp -c prometheuscontainer
+ 2312  k logs monitoramento-deploy-5b79b7d885-t2pff -n musicoapp
+ 2313  k delete po mov prometheus-pv
+ 2314  k delete po mov prometheus-pv -n musicaoo
+ 2315  k delete po mov prometheus-pv -n musicapp
+ 2316  k delete po mov prometheus-pvc -n musicapp
+ 2317  k delete po  prometheus-pvc -n musicapp
+ 2318  k delete po  prometheus-pvc-n musicapp
+ 2319  k delete pvc  prometheus-pvc -n musicapp
+ 2320  k delete pv  prometheus-pv -n musicapp
+ 2321  k get po -n musicoapp
+ 2322  k delete deployment musico deploy
+ 2323  k delete deployment monitoramento-deploy -n musicoapp
+ 2324  k get =v -musicoapp
+ 2325  k get pv -n musicoapp
+ 2326  k get pvc -n musicoapp
+ 2327  k delete pvc  prometheus-pvc -n musicapp
+ 2328  k delete pvc  prometheus-pvc
+ 2329  k delete prometheus-pvc -n musicoapp
+ 2330  kubectl delete pvc prometheus-pvc -n musicoapp
+ 2331  k get pvc -n musicoapp
+ 2332  k get pv -n musicoapp
+ 2333  ./sobe-tudo.sh
+ 2334  k get po -n musicoapp
+ 2335  k describe monitoramento-deploy-6c4c7b8554-9pr2f -n musicoapp
+ 2336  k describe mpv mnitoramento-deploy-6c4c7b8554-9pr2f -n musicoapp
+ 2337  k describe pv monitoramento-deploy-6c4c7b8554-9pr2f -n musicoapp
+ 2338  k describe pv mooitoramento-deploy-6c4c7b8554-9pr2f -n musicoapp
+ 2339  k describe pv mooitoranento-deploy-6c4c7b8554-9pr2f -n musicoapp
+ 2340  k describe ov mniitoranento-deploy-6c4c7b8554-9pr2f -n musicoapp
+ 2341  k describe pv monitoranento-deploy-6c4c7b8554-9pr2f -n musicoapp
+ 2342  k describe po monitoranento-deploy-6c4c7b8554-9pr2f -n musicoapp
+ 2343  k get po -n musicoapp
+ 2344  kubectl describe pod monitoramento-deploy-6c4c7b8554-9pr2f -n musicoapp
+ 2345  k apply -f monitoramento/prometheus=grafana-deploy;yaml
+ 2346  k apply -f monitoramento/prometheus=grafana-deploy.yaml
+ 2347  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 2348  k get po -n musicoapp
+ 2349  kubectl logs monitoramento-deploy-6b8dd99677-kghpd -c prometheus-container -n musicoapp
+ 2350  kubectl logs monitoramento-deploy-6b8dd99677-kghpd -c grafana-container -n musicoapp
+ 2351  k get po -n musicoapp
+ 2352  kubectl logs monitoramento-deploy-6b8dd99677-kghpd -c prometheus-container -n musicoapp
+ 2353  ls /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus/
+ 2354  kubectl exec -it monitoramento-deploy-6b8dd99677-kghpd -c prometheus-container -n musicoapp -- sh
+ 2355  ls -l /home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus/
+ 2356  k apply -f monitoramento/prometheus=grafana-deploy.yaml
+ 2357  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 2358  k get po -n musicoapp
+ 2359  k logs po monitoramento-deploy-786c4b7858-75hpc -n musicoapp -c prometheus-container
+ 2360  k logs poonitoramento-deploy-786c4b7858-75hpc -n musicoapp -c prometheus-container
+ 2361  k logs poonimramento-deploy-786c4b7858-75hpc -n musicoapp -c prometheus-container
+ 2362  k logs monitoramento-deploy-786c4b7858-75hpc -n musicoapp -c prometheus-container
+ 2363  k get po -n musicoapp
+ 2364  kubectl logs monitoramento-deploy-786c4b7858-75hpc -c prometheus-container -n musicoapp
+ 2365  kubectl describe pod monitoramento-deploy-786c4b7858-75hpc -n musicoapp
+ 2366  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 2367  k get po -n musicoapp
+ 2368  kubectl logs monitoramento-deploy-786c4b7858-75hpc -c prometheus-container -n musicoapp
+ 2369  kubectl apply -f seu-arquivo-deploy.yaml
+ 2370  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 2371  k get po -n musicoapp
+ 2372  k delete deployment monitoramento-deploy -n musicoapp
+ 2373  k delete pvc prometheus-pvc -n musicoapp
+ 2374  k delete pv prometheus-pv -n musicoapp
+ 2375  ./subir-tudo.sh
+ 2376  ./sube-tudo.sh
+ 2377  ./sobe-tudo.sh
+ 2378  k get po -n musicoapp
+ 2379  k describe monitoramento-deploy-5c94685d9f-nfgw9 -n musicoapp
+ 2380  kubectl describe pod monitoramento-deploy-5c94685d9f-nfgw9 -n musicoapp
+ 2381  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 2382  k get po -n musicoapp
+ 2383  kubectl logs monitoramento-deploy-68c6f45b9b-sljbf -c prometheus-container -n musicoapp
+ 2384  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 2385  k delete pv prometheus-pv -n musicoapp
+ 2386  k delete pvc prometheus-pvc -n musicoapp
+ 2387  k delete deployment monitoramento-deploy -n musicoapp
+ 2388  ./sobe-tudo.sh
+ 2389  k get po -n musicoapp
+ 2390  k delete deployment monitoramento-deploy -n musicoapp
+ 2391  k delete pvc prometheus-pvc -n musicoapp
+ 2392  k delete pv prometheus-pv -n musicoapp
+ 2393  ./sobe-tudo.sh
+ 2394  k get po -n musicoapp
+ 2395  kubectl describe pod monitoramento-deploy-56967bbc4c-54z47 -n musicoapp
+ 2396  kubectl create configmap prometheus-config -n musicoapp --from-file=/home/paulo/docker-atividade/ContratacaoMusico/musico/prometheus/prometheus.yml
+ 2397  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 2398  k get po -n musicoapp
+ 2399  cd prometheus
+ 2400  cd ../Docker
+ 2401  cd prometheus
+ 2402  docker build . -t paulopalmuti/musico-prometheus:1.0
+ 2403  docker tag paulopalmuti/musico-prometheus:1.0 paulopalmuti/musico-prometheus:latest
+ 2404  docker push paulopalmuti/musico-prometheus:1.0
+ 2405  docker push paulopalmuti/musico-prometheus:latest
+ 2406  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 2407  cd ..
+ 2408  cd ../k8s
+ 2409  cd ..
+ 2410  cd k8s
+ 2411  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 2412  k get po -n musicoapp
+ 2413  k get svc -n musicoapp
+ 2414  k delete all --all -n musicoapp
+ 2415  ./sobe-tudo.sh
+ 2416  k get po -n musicoapp
+ 2417  k logs banco-deploy-56b7667b74-lngbx -n musicoapp
+ 2418  k get svc -n musicoapp
+ 2419  ./sobe-tudo.sh
+ 2420  k get svc -n musicoapp
+ 2421  cd ../JMeter/test
+ 2422  docker run --rm -v $(pwd):/test -w /test justb4/jmeter -n -t teste.jmx -l resultado.jtl
+ 2423  k get svc -n musicoapp
+ 2424  ./sobe-tudo.sh
+ 2425  cd ../../k8s
+ 2426  ./sobe-tudo.sh
+ 2427  k get svc -n musicoapp
+ 2428  k get po -n musicoapp
+ 2429  k delete deployment musico-deploy-n musicoapp
+ 2430  k delete deployment musico-deploy -n musicoapp
+ 2431  k apply -f monitoramento/prometheus-grafana-deploy.yaml
+ 2432  k apply -f musico-deploy.yaml
+ 2433  k get po -n musicoapp
+ 2434  docker run --rm -v $(pwd):/test -w /test justb4/jmeter -n -t teste.jmx -l resultado.jtl
+ 2435  cd Jmeter
+ 2436  ls
+ 2437  cd .
+ 2438  cd ../Docker
+ 2439  cd JMeter
+ 2440  cd ../JMeter
+ 2441  docker run --rm -v $(pwd):/test -w /test justb4/jmeter -n -t teste.jmx -l resultado.jtl
+ 2442  cd test
+ 2443  docker run --rm -v $(pwd):/test -w /test justb4/jmeter -n -t teste.jmx -l resultado.jtl
+ 2444  cd ..
+ 2445  history > history

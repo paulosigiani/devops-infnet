@@ -1,0 +1,31 @@
+2025-04-27 09:50:42,217 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-04-27 09:50:42,512 INFO o.a.j.JMeter: Loading user properties from: /opt/apache-jmeter-5.5/bin/user.properties
+2025-04-27 09:50:42,528 INFO o.a.j.JMeter: Loading system properties from: /opt/apache-jmeter-5.5/bin/system.properties
+2025-04-27 09:50:42,577 INFO o.a.j.JMeter: Setting System property: log4j2.formatMsgNoLookups=true
+2025-04-27 09:50:42,709 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2025-04-27 09:50:42,709 INFO o.a.j.JMeter: Version 5.5
+2025-04-27 09:50:42,710 INFO o.a.j.JMeter: java.version=1.8.0_275
+2025-04-27 09:50:42,710 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2025-04-27 09:50:42,711 INFO o.a.j.JMeter: os.name=Linux
+2025-04-27 09:50:42,711 INFO o.a.j.JMeter: os.arch=amd64
+2025-04-27 09:50:42,711 INFO o.a.j.JMeter: os.version=5.15.167.4-microsoft-standard-WSL2
+2025-04-27 09:50:42,712 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-04-27 09:50:42,712 INFO o.a.j.JMeter: java.awt.headless=true
+2025-04-27 09:50:42,713 INFO o.a.j.JMeter: Max memory     =1686110208
+2025-04-27 09:50:42,713 INFO o.a.j.JMeter: Available Processors =4
+2025-04-27 09:50:42,813 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-04-27 09:50:42,814 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-04-27 09:50:42,815 INFO o.a.j.JMeter: JMeterHome=/opt/apache-jmeter-5.5
+2025-04-27 09:50:42,815 INFO o.a.j.JMeter: user.dir  =/test
+2025-04-27 09:50:42,828 INFO o.a.j.JMeter: PWD       =/test
+2025-04-27 09:50:42,830 INFO o.a.j.JMeter: IP: 172.17.0.3 Name: 906c91c9eef1 FullName: 906c91c9eef1
+2025-04-27 09:50:43,199 ERROR o.a.j.JMeter: An error occurred: 
+org.apache.jmeter.report.config.ConfigurationException: The file /test/teste.jmx doesn't exist or can't be opened
+	at org.apache.jmeter.JMeter.runNonGui(JMeter.java:927) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.JMeter.startNonGui(JMeter.java:917) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.JMeter.start(JMeter.java:485) ~[ApacheJMeter_core.jar:5.5]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:259) ~[ApacheJMeter.jar:5.5]

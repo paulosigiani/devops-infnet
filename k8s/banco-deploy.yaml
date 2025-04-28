@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   namespace: musicoapp
-  name: banco-musico-deploy
+  name: banco-deploy
   labels:
     app: database
 spec:

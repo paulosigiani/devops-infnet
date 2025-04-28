@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: monitoramento-deploy
+  namespace: musicoapp
+  labels:
+    app: monitoramento
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: monitoramento
+  template:
+    metadata:
+      name: monitoramento
+      labels:
+        app: monitoramento
+    spec:
+      securityContext:
+        runAsUser: 0
+        fsGroup: 0
+      volumes:
+        - name: prometheus-volume
+          persistentVolumeClaim:
+            claimName: prometheus-pvc
+      containers:
+        - name: prometheus-container
+          image: paulopalmuti/musico-prometheus:latest
+          imagePullPolicy: IfNotPresent
+          volumeMounts:
+            - mountPath: /prometheus
+              name: prometheus-volume
+        - name: grafana-container
+          image: grafana/grafana
+          imagePullPolicy: IfNotPresent
